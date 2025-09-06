@@ -1,7 +1,7 @@
 MetaFileClass {
- Name "{A0E7ABBD61CD29C8}StalkerFWConfig/mutants/bloodsucker/bloodsucker.fbx"
+ Name "{A0E7ABBD61CD29C8}StalkerFWConfig/mutants/bloodsucker/bloodsucker.xob"
  Author "abc-002607"
- ChangeDate 503345959
+ ChangeDate -1591708889
  Configurations {
   FBXResourceClass PC {
    SourceFile "bloodsucker.fbx"

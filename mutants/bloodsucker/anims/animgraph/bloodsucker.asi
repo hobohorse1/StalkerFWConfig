@@ -1,0 +1,5 @@
+$animsetinstance {
+ #template "StalkerFWConfig/mutants/bloodsucker/anims/animgraph/bloodsucker.ast"
+ #nparents 0
+ $animations {
+ }
