@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{7B0413976A6558FE}br_mutants/Snork/Anims/rightattack.anm"
+ Author "swade"
+ ChangeDate 1170026641
+ Configurations {
+  TXAResourceClass PC {
+   SourceFile "rightattack.txa"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass LINUX : PC {
+  }
+ }
+}

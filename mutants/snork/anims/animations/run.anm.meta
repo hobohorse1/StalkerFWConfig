@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{BC0E59B5B70E232C}br_mutants/Snork/Anims/run.anm"
+ Author "swade"
+ ChangeDate 259879057
+ Configurations {
+  TXAResourceClass PC {
+   SourceFile "run.txa"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass LINUX : PC {
+  }
+ }
+}

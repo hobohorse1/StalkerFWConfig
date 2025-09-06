@@ -1,0 +1,16 @@
+$animsetinstance {
+ #template "StalkerFWConfig/mutants/snork/anims/animgraph/snork.ast"
+ #nparents 0
+ $animations {
+   "death" "StalkerFWConfig/mutants/snork/anims/animations/death.anm"
+   "idle" "StalkerFWConfig/mutants/snork/anims/animations/idle.anm"
+   "leftattack" "StalkerFWConfig/mutants/snork/anims/animations/leftattack.anm"
+   "rightattack" "StalkerFWConfig/mutants/snork/anims/animations/rightattack.anm"
+   "run" "StalkerFWConfig/mutants/snork/anims/animations/run.anm"
+   "standattack" "StalkerFWConfig/mutants/snork/anims/animations/standattack.anm"
+   "turnl180" "StalkerFWConfig/mutants/snork/anims/animations/turnl180.anm"
+   "turnl90" "StalkerFWConfig/mutants/snork/anims/animations/turnl90.anm"
+   "turnr180" "StalkerFWConfig/mutants/snork/anims/animations/turnr180.anm"
+   "turnr90" "StalkerFWConfig/mutants/snork/anims/animations/turnr90.anm"
+   "walk" "StalkerFWConfig/mutants/snork/anims/animations/walk.anm"
+ }

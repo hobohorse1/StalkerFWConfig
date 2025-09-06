@@ -1,0 +1,25 @@
+MetaFileClass {
+ Name "{9CF1D836F21452D1}StalkerFWConfig/mutants/snork/snork.xob"
+ Author "abc-002607"
+ ChangeDate 1180545828
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "snork.fbx"
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass {
+     SourceMaterial "act/act_gasmask"
+     AssignedMaterial "{1C4E549E4D2D44B7}StalkerFWConfig/mutants/snork/act_act_gasmask.emat"
+    }
+   }
+   GeometryParams {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass LINUX : PC {
+  }
+ }
+}

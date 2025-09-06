@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{75B4588B1869696F}br_mutants/Snork/Anims/leftattack.anm"
+ Author "swade"
+ ChangeDate 968700049
+ Configurations {
+  TXAResourceClass PC {
+   SourceFile "leftattack.txa"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,10 @@
+Particle {
+ AlbedoMap "{07E916FA87F2C9C8}StalkerFWConfig/artefacts/custom/data/edds/Fire01.edds" 
+ Emissive 0.8549 0.2941 0.1804 1
+ CastShadow 1
+ BlendMode Additive_AlphaModulate
+ TileU 6
+ TileV 2
+ Softness 1
+ CameraBlendFar 0.001
+}

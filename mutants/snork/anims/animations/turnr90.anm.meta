@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{2E5CCCEDC2615AF7}BrigadaScript/br_mutants/Snork/anim/turnr90.anm"
+ Author "desktop-q0qls49"
+ ChangeDate -1187303290
+ Configurations {
+  FBXAnimResourceClass PC {
+   SourceFile "turnr90.fbx"
+   AnimationName "snork|turnr90"
+  }
+  FBXAnimResourceClass XBOX_ONE : PC {
+  }
+  FBXAnimResourceClass PS4 : PC {
+  }
+  FBXAnimResourceClass LINUX : PC {
+  }
+ }
+}

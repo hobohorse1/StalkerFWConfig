@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{587330C79DF7D2C4}br_mutants/Snork/Anims/idle.anm"
+ Author "swade"
+ ChangeDate 333262993
+ Configurations {
+  TXAResourceClass PC {
+   SourceFile "idle.txa"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass LINUX : PC {
+  }
+ }
+}

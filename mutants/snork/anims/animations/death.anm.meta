@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{903C12FD970C9A63}BrigadaScript/br_mutants/Snork/anim/death.txa"
+ Author "desktop-q0qls49"
+ ChangeDate -1188876154
+ Configurations {
+  FBXAnimResourceClass PC {
+   SourceFile "death.fbx"
+   AnimationName "snork|death"
+  }
+  FBXAnimResourceClass XBOX_ONE : PC {
+  }
+  FBXAnimResourceClass PS4 : PC {
+  }
+  FBXAnimResourceClass LINUX : PC {
+  }
+ }
+}

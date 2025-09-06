@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3F20521BBAC30D3D}StalkerFWConfig/mutants/blinddog/act_act_dogs_bulterer.emat"
+ Author "abc-002607"
+ ChangeDate 879080228
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}

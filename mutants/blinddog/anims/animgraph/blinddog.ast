@@ -1,0 +1,113 @@
+$animsettemplate {
+ #ngrouptypes 6
+ $groupType {
+  #ngroupnames 0
+  #nanims 33
+  $anims {
+    "Attack1"
+    "Attack2"
+    "Attack3"
+    "Attack4"
+    "Eat1"
+    "Eat2"
+    "FearStart"
+    "GrazeIdle1"
+    "GrazeIdle2"
+    "GrazeIdle3"
+    "IdleSit1"
+    "IdleSit2"
+    "IdleSit3"
+    "IdleStand1"
+    "IdleStand2"
+    "IdleStand3"
+    "JumpAttachSuccessL"
+    "JumpAttachSuccessR"
+    "JumpAttack"
+    "SiegeIdle1"
+    "SiegeIdle2"
+    "SitToSleep"
+    "SitToStand"
+    "SleepLoop"
+    "SleepToSit"
+    "SleepToStand"
+    "StandToSiege"
+    "StandToSit"
+    "new_run"
+    "new_run_fast"
+    "new_walk"
+    "new_walk_fast"
+    "new_walk_slow"
+   
+  }
+ }
+ $groupType "DamageHit" {
+  #ngroupnames 1
+  #nanims 6
+  $groupnames {
+    "Heavy"
+   
+  }
+  $anims {
+    "Head_0"
+    "Head_1"
+    "Head_2"
+    "Torso_0"
+    "Torso_1"
+    "Torso_2"
+   
+  }
+ }
+ $groupType "Death" {
+  #ngroupnames 4
+  #nanims 1
+  $groupnames {
+    "Sit"
+    "Sleep"
+    "Stand"
+    "StandRun"
+   
+  }
+  $anims {
+    "Death"
+   
+  }
+ }
+ $groupType "SiegeTurn" {
+  #ngroupnames 0
+  #nanims 6
+  $anims {
+    "L100"
+    "L150"
+    "L40"
+    "R100"
+    "R150"
+    "R40"
+   
+  }
+ }
+ $groupType "StopTurns" {
+  #ngroupnames 0
+  #nanims 3
+  $anims {
+    "F"
+    "Left144"
+    "Right144"
+   
+  }
+ }
+ $groupType "Turns" {
+  #ngroupnames 1
+  #nanims 4
+  $groupnames {
+    "Run"
+   
+  }
+  $anims {
+    "Left144"
+    "Left90"
+    "Right144"
+    "Right90"
+   
+  }
+ }
+}

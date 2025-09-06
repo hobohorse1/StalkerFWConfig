@@ -1,0 +1,25 @@
+MetaFileClass {
+ Name "{52B51A2915E09623}StalkerFWConfig/mutants/blinddog/blinddog.xob"
+ Author "abc-002607"
+ ChangeDate 1348842276
+ Configurations {
+  FBXResourceClass PC {
+   SourceFile "blinddog.fbx"
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass {
+     SourceMaterial "act/act_dogs_bulterer"
+     AssignedMaterial "{3F20521BBAC30D3D}StalkerFWConfig/mutants/blinddog/act_act_dogs_bulterer.emat"
+    }
+   }
+   GeometryParams {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+  }
+  FBXResourceClass PS4 : PC {
+  }
+  FBXResourceClass LINUX : PC {
+  }
+ }
+}

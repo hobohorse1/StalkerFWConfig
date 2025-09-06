@@ -1,0 +1,10 @@
+$eventtable {
+  "Damage"
+  "FootDownBL"
+  "FootDownBR"
+  "FootDownFL"
+  "FootDownFR"
+  "Sound"
+  "Step"
+ 
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DF279CF2403BF32E}@BR_Mutants/Addons/br_mutants/Snork/Anims/walk.anm"
+ Author "desktop-jkmqnfh"
+ ChangeDate 358953105
+ Configurations {
+  FBXAnimResourceClass PC {
+   SourceFile "walk.fbx"
+   AnimationName "snork|walk"
+  }
+  FBXAnimResourceClass XBOX_ONE : PC {
+  }
+  FBXAnimResourceClass PS4 : PC {
+  }
+  FBXAnimResourceClass LINUX : PC {
+  }
+ }
+}

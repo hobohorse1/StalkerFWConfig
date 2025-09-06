@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{BD9993C6BA8B5312}br_mutants/Snork/Anims/standattack.anm"
+ Author "swade"
+ ChangeDate 996503697
+ Configurations {
+  TXAResourceClass PC {
+   SourceFile "standattack.txa"
+  }
+  TXAResourceClass XBOX_ONE : PC {
+  }
+  TXAResourceClass PS4 : PC {
+  }
+  TXAResourceClass LINUX : PC {
+  }
+ }
+}

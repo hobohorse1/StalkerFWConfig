@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1C4E549E4D2D44B7}StalkerFWConfig/mutants/snork/act_act_gasmask.emat"
+ Author "abc-002607"
+ ChangeDate 1012773668
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}
