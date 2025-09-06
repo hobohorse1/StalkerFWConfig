@@ -1,0 +1,12 @@
+skeletonDefinitions="StalkerFWConfig/mutants/skeletons.anim.xml";
+name = "";
+picture = "";
+logo = "";
+logoSmall = "";
+logoOver = "";
+tooltip = "";
+overview = "";
+action = "";
+author = "";
+authorID = "";
+version = "1.0.0";
