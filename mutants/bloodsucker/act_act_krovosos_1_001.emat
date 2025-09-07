@@ -1,2 +1,6 @@
-MatSuper {
+MatSimplePBR {
+ AlbedoMap "{9B4E034CC94C7F20}StalkerFWConfig/mutants/bloodsucker/data/bloodsucker1.edds" 
+ SpecularMul 0.128
+ SpecularPow 59.661
+ NormalMap "{A2F7210436ACFE08}StalkerFWConfig/mutants/bloodsucker/data/bloodsucker1_nohq.edds" 
 }

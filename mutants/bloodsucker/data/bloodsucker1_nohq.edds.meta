@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A2F7210436ACFE08}StalkerFWConfig/mutants/bloodsucker/data/bloodsucker1_nohq.edds"
+ Author "swade"
+ ChangeDate 72053543
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "bloodsucker1_nohq.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

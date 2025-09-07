@@ -1,18 +1,84 @@
 $animsettemplate {
- #ngrouptypes 1
+ #ngrouptypes 8
  $groupType {
   #ngroupnames 0
-  #nanims 9
+  #nanims 0
+ }
+ $groupType "Aggressive" {
+  #ngroupnames 0
+  #nanims 4
+  $anims {
+    "agressive_idle"
+    "agressive_to_calm"
+    "calm_to_agressive"
+    "scream"
+   
+  }
+ }
+ $groupType "Attacks" {
+  #ngroupnames 0
+  #nanims 4
   $anims {
     "attack_left"
     "attack_right"
     "attack_run"
+    "attack_success"
+   
+  }
+ }
+ $groupType "Deaths" {
+  #ngroupnames 0
+  #nanims 4
+  $anims {
     "death"
-    "idle1"
+    "run_death"
+    "sit_death"
+    "stand_death"
+   
+  }
+ }
+ $groupType "Movement" {
+  #ngroupnames 0
+  #nanims 2
+  $anims {
     "run"
+    "walk"
+   
+  }
+ }
+ $groupType "Running_Turns" {
+  #ngroupnames 0
+  #nanims 4
+  $anims {
+    "turn_run_l1"
+    "turn_run_l2"
+    "turn_run_r1"
+    "turn_run_r2"
+   
+  }
+ }
+ $groupType "Standing_Idles" {
+  #ngroupnames 0
+  #nanims 9
+  $anims {
+    "idle1"
+    "idle2"
+    "idle3"
+    "sit_eat"
+    "sit_stand_up"
+    "stand_idle_0"
+    "stand_idle_1"
+    "stand_idle_2"
+    "stand_sit_down"
+   
+  }
+ }
+ $groupType "Standing_Turns" {
+  #ngroupnames 0
+  #nanims 2
+  $anims {
     "turn_stand_l"
     "turn_stand_r"
-    "walk"
    
   }
  }
