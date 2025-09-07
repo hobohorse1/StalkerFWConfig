@@ -1,15 +1,20 @@
 MetaFileClass {
- Name "{A0E7ABBD61CD29C8}StalkerFWConfig/mutants/bloodsucker/bloodsucker.xob"
+ Name "{A0E7ABBD61CD29C8}StalkerFWConfig/mutants/bloodsucker/bloodsucker.fbx"
  Author "abc-002607"
- ChangeDate -1591708889
+ ChangeDate -986434777
  Configurations {
   FBXResourceClass PC {
    SourceFile "bloodsucker.fbx"
    ExportSkinning 1
+   ExportSceneHierarchy 1
    MaterialAssigns {
     MaterialAssignClass {
-     SourceMaterial "act/act_krovosos_1"
-     AssignedMaterial "{8B27FD55FA8CE50E}StalkerFWConfig/mutants/bloodsucker/act_act_krovosos_1.emat"
+     SourceMaterial "act_act_krovosos_1_001"
+     AssignedMaterial "{12C2548ACE17187C}StalkerFWConfig/mutants/bloodsucker/act_act_krovosos_1_001.emat"
+    }
+    MaterialAssignClass {
+     SourceMaterial "act_act_krovosos_1_000"
+     AssignedMaterial "{E6CA1312C3CA7008}StalkerFWConfig/mutants/bloodsucker/act_act_krovosos_1_000.emat"
     }
    }
    GeometryParams {

@@ -9,7 +9,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimAttackLeft" "" "leftattack" "noloop"
+			 "AnimAttackLeft" "" "" "noloop"
 			$Predictions {
 			}
 			$EditorData {
@@ -17,7 +17,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimDeath" "" "death" "noloop"
+			 "AnimDeath" "" "" "noloop"
 			$Predictions {
 			}
 			$EditorData {
@@ -25,7 +25,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimIdle" "" "idle" "loop"
+			 "AnimIdle" "" "" "loop"
 			$Predictions {
 			}
 			$EditorData {
@@ -33,7 +33,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimL180" "" "turnl180" "noloop"
+			 "AnimL180" "" "" "noloop"
 			$Predictions {
 			}
 			$EditorData {
@@ -41,7 +41,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimL90" "" "turnl90" "noloop"
+			 "AnimL90" "" "" "noloop"
 			$Predictions {
 			}
 			$EditorData {
@@ -49,7 +49,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimR180" "" "turnr180" "noloop"
+			 "AnimR180" "" "" "noloop"
 			$Predictions {
 			}
 			$EditorData {
@@ -57,7 +57,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimR90" "" "turnr90" "noloop"
+			 "AnimR90" "" "" "noloop"
 			$Predictions {
 			}
 			$EditorData {
@@ -65,7 +65,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimRightAttack" "" "rightattack" "noloop"
+			 "AnimRightAttack" "" "" "noloop"
 			$Predictions {
 			}
 			$EditorData {
@@ -73,7 +73,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimRun" "" "run" "loop"
+			 "AnimRun" "" "" "loop"
 			$Predictions {
 			}
 			$EditorData {
@@ -81,7 +81,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimStandAttack" "" "standattack" "noloop"
+			 "AnimStandAttack" "" "" "noloop"
 			$Predictions {
 			}
 			$EditorData {
@@ -89,7 +89,7 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimWalk" "" "walk" "loop"
+			 "AnimWalk" "" "" "loop"
 			$Predictions {
 			}
 			$EditorData {
@@ -187,22 +187,6 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeStateMachine {
-			 "Masterbloodsucker_SM" ""
-			$States 1 {
-				$State {
-					 "Alive" "" "DeathT" "" "notime" 0
-					$EditorData {
-						#EditorPos -12.1999998 4.0999999
-					}
-				}
-			}
-			$Transitions 0 {
-			}
-			$EditorData {
-				#EditorPos -14.9000006 5.0
-			}
-		}
-		$Node AnimNodeStateMachine {
 			 "MasterState" ""
 			$States 2 {
 				$State {
@@ -228,6 +212,22 @@ $AnimGraph 7 {
 			}
 			$EditorData {
 				#EditorPos -24.8999996 0.9
+			}
+		}
+		$Node AnimNodeStateMachine {
+			 "Masterbloodsucker_SM" ""
+			$States 1 {
+				$State {
+					 "Alive" "" "DeathT" "" "notime" 0
+					$EditorData {
+						#EditorPos -12.1999998 4.0999999
+					}
+				}
+			}
+			$Transitions 0 {
+			}
+			$EditorData {
+				#EditorPos -14.9000006 5.0
 			}
 		}
 		$Node AnimNodeBlend {

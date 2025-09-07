@@ -38,4 +38,16 @@ class CfgMods
 				"Mission"
 		    };
     };
+
+	class defs
+	{
+		class worldScriptModule
+		{
+			value="";
+			files[]=
+			{
+				"StalkerFWConfig/mutants/boar/scripts/4_World"
+			};
+		};
+	};
 };

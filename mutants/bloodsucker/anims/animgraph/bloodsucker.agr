@@ -1,5 +1,5 @@
 $AnimGraph 7 {
-	#AnimSetTemplate "StalkerFWConfig/mutants/bloodsucker/anims/animgraph/bloodsucker.ast"
+	#AnimSetTemplate "{594B5B2AECF8B438}StalkerFWConfig/mutants/bloodsucker/anims/animgraph/bloodsucker.ast"
 	$Controls {
 		$Commands {
 			 CMD_HIT_LIGHT -1

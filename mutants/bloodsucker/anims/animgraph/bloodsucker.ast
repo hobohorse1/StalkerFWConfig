@@ -1,21 +1,3 @@
 $animsettemplate {
- #ngrouptypes 1
- $groupType {
-  #ngroupnames 0
-  #nanims 11
-  $anims {
-    "death"
-    "idle"
-    "leftattack"
-    "rightattack"
-    "run"
-    "standattack"
-    "turnl180"
-    "turnl90"
-    "turnr180"
-    "turnr90"
-    "walk"
-   
-  }
- }
+ #ngrouptypes 0
 }

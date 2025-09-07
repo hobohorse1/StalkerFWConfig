@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{12C2548ACE17187C}StalkerFWConfig/mutants/bloodsucker/act_act_krovosos_1_001.emat"
+ Author "abc-002607"
+ ChangeDate -215731417
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass LINUX : PC {
+  }
+ }
+}
