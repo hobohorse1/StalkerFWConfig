@@ -2,5 +2,13 @@ $animsetinstance {
  #template "{594B5B2AECF8B438}StalkerFWConfig/mutants/bloodsucker/anims/animgraph/bloodsucker.ast"
  #nparents 0
  $animations {
-  
+   "attack_left" "{45BA1236B505B206}StalkerFWConfig/mutants/bloodsucker/anims/animations/attack_left.anm"
+   "attack_right" "{56A89CE66494D0F7}StalkerFWConfig/mutants/bloodsucker/anims/animations/attack_right.anm"
+   "attack_run" "{3DF8D1973A2C6492}StalkerFWConfig/mutants/bloodsucker/anims/animations/attack_run.anm"
+   "death" "{0239FEE79A622452}StalkerFWConfig/mutants/bloodsucker/anims/animations/death.anm"
+   "idle1" "{605EDEFC658A6081}StalkerFWConfig/mutants/bloodsucker/anims/animations/idle1.anm"
+   "run" "{5D535DF415DE3526}StalkerFWConfig/mutants/bloodsucker/anims/animations/run.anm"
+   "turn_stand_l" "{9EB529774D9F7837}StalkerFWConfig/mutants/bloodsucker/anims/animations/turn_stand_l.anm"
+   "turn_stand_r" "{6FBE11233EC04DDB}StalkerFWConfig/mutants/bloodsucker/anims/animations/turn_stand_r.anm"
+   "walk" "{0D45761909BDC64B}StalkerFWConfig/mutants/bloodsucker/anims/animations/walk.anm"
  }

@@ -1,3 +1,19 @@
 $animsettemplate {
- #ngrouptypes 0
+ #ngrouptypes 1
+ $groupType {
+  #ngroupnames 0
+  #nanims 9
+  $anims {
+    "attack_left"
+    "attack_right"
+    "attack_run"
+    "death"
+    "idle1"
+    "run"
+    "turn_stand_l"
+    "turn_stand_r"
+    "walk"
+   
+  }
+ }
 }

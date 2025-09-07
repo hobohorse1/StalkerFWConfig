@@ -1,10 +1,10 @@
 MetaFileClass {
- Name "{5D535DF415DE3526}StalkerFWConfig/mutants/bloodsucker/anims/animations/run.anm"
+ Name "{596F1453433351CB}StalkerFWConfig/mutants/bloodsucker/anims/animations/turn_run_r2.anm"
  Author "abc-002607"
- ChangeDate -1412123865
+ ChangeDate -690162905
  Configurations {
   FBXAnimResourceClass PC {
-   SourceFile "run.fbx"
+   SourceFile "turn_run_r2.fbx"
   }
   FBXAnimResourceClass XBOX_ONE : PC {
   }
