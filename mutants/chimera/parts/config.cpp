@@ -17,7 +17,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Chimera Paw";
 		descriptionShort = "";
-		model = "\StalkerFWConfig\mutants\loot\parts\chimerapaw.p3d";
+		model = "StalkerFWConfig\mutants\chimera\parts\chimerapaw.p3d";
 		weight = 3300;
 		itemSize[] = {3,8};
 		rotationFlags = 63;
@@ -38,7 +38,7 @@ class CfgVehicles
 		scope = 2;
 		displayName = "Chimera Head";
 		descriptionShort = "";
-		model = "\StalkerFWConfig\mutants\loot\parts\chimerahead.p3d";
+		model = "StalkerFWConfig\mutants\chimera\parts\chimerahead.p3d";
 		weight = 4700;
 		itemSize[] = {5,5};
 		rotationFlags = 63;
