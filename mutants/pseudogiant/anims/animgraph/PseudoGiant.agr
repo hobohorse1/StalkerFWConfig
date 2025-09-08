@@ -1,0 +1,33 @@
+$AnimGraph 7 {
+	#AnimSetTemplate "{CD5DCD1DB94F3D67}StalkerFWConfig/mutants/pseudogiant/anims/animgraph/PseudoGiant.ast"
+	$Controls {
+		$Commands {
+			 CMD_HIT_LIGHT -1
+			 CMD_HIT_HEAVY -1
+			 CMD_DEATH -1
+			 CMD_ATTACK -1
+			 CMD_TURN -1
+			 CMD_VAULT -1
+			 CMD_CRAWL -1
+			 CMD_SLEEP -1
+		}
+		$Vars {
+			#Var MovementSpeed float 0.0 0.0 3.0 ""
+			#Var Injured bool 0 ""
+			#Var MovementDirection float 0.0 -180.0 180.0 ""
+			#Var LookDirY float 0.0 -50.0 50.0 ""
+			#Var LookDirX float 0.0 -45.0 45.0 ""
+			#Var VariationsStance int 0 0 3 ""
+			#Var Look bool 0 ""
+			#Var IdleState int 0 0 2 ""
+			#Var TurnDir float 0.0 -180.0 180.0 ""
+		}
+		$Expressions {
+		}
+		$DebugControls {
+		}
+	}
+	$Files {
+		 "StalkerFWConfig/mutants/pseudogiant/anims/animgraph/Locomotion.agr"
+	}
+}

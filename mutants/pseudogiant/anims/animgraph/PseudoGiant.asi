@@ -1,0 +1,27 @@
+$animsetinstance {
+ #template "{CD5DCD1DB94F3D67}StalkerFWConfig/mutants/pseudogiant/anims/animgraph/PseudoGiant.ast"
+ #nparents 0
+ $animations {
+   "head_turn" "{90167DC0009F3831}StalkerFWConfig/mutants/pseudogiant/anims/animations/head_turn.anm"
+   "lie_sleeping" "{C0FA5F12C0AF0496}StalkerFWConfig/mutants/pseudogiant/anims/animations/lie_sleeping.anm"
+   "sit_go_sleep" "{2CFCEEDB927997CC}StalkerFWConfig/mutants/pseudogiant/anims/animations/lie_to_sleep_0.anm"
+   "sit_idle" "{D01179475A507201}StalkerFWConfig/mutants/pseudogiant/anims/animations/sit_idle_0.anm"
+   "sit_standup" "{EAD657341EF16988}StalkerFWConfig/mutants/pseudogiant/anims/animations/sit_standup.anm"
+   "stand_alerted" "{16BD2AE91CC2B914}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_alerted.anm"
+   "stand_attack_0" "{5CC02530DD606203}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_attack_0.anm"
+   "stand_attack_1" "{2BCA4DB829C28D73}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_attack_1.anm"
+   "stand_attack_2" "{B2D4F4213425BCE3}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_attack_2.anm"
+   "stand_attack_3" "{B2B5FE97F4FBE22A}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_attack_3.anm"
+   "stand_death" "{59A815FB4BBEDF62}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_death.anm"
+   "stand_idle_0" "{C703F62525529DD3}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_idle_0.anm"
+   "stand_idle_1" "{B0099EADD1F072A3}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_idle_1.anm"
+   "stand_roar" "{50D08FA432234C81}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_roar.anm"
+   "stand_sit_down" "{B87D3CD6FC05E656}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_lie_down_0.anm"
+   "stand_turn_ls_180" "{0D4206054C10AF58}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_turn_ls_180.anm"
+   "stand_turn_ls_90" "{CC874E50BB0B2F8E}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_turn_ls_90.anm"
+   "stand_turn_rs_180" "{0EC28EB4C319D4C8}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_turn_rs_180.anm"
+   "stand_turn_rs_90" "{A049E4812F5D4EEA}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_turn_rs_90.anm"
+   "stand_walk_fwd" "{8A151CC266546A3F}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_walk_fwd.anm"
+   "stand_walk_fwd_crawl" "{A8B0E647EE830557}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_walk_fwd_crawl.anm"
+   "stand_walk_fwd_run" "{6A3575BE8E40DA51}StalkerFWConfig/mutants/pseudogiant/anims/animations/stand_walk_fwd_run.anm"
+ }

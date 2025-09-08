@@ -1,0 +1,32 @@
+$animsettemplate {
+ #ngrouptypes 1
+ $groupType {
+  #ngroupnames 0
+  #nanims 22
+  $anims {
+    "head_turn"
+    "lie_sleeping"
+    "sit_go_sleep"
+    "sit_idle"
+    "sit_standup"
+    "stand_alerted"
+    "stand_attack_0"
+    "stand_attack_1"
+    "stand_attack_2"
+    "stand_attack_3"
+    "stand_death"
+    "stand_idle_0"
+    "stand_idle_1"
+    "stand_roar"
+    "stand_sit_down"
+    "stand_turn_ls_180"
+    "stand_turn_ls_90"
+    "stand_turn_rs_180"
+    "stand_turn_rs_90"
+    "stand_walk_fwd"
+    "stand_walk_fwd_crawl"
+    "stand_walk_fwd_run"
+   
+  }
+ }
+}
