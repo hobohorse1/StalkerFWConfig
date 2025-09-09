@@ -20,7 +20,7 @@ class CfgVehicles
 	class ZombieMaleBase;
 	class SFW_Mutant_Bloodsucker: ZombieMaleBase
 	{
-		scope = 0;
+		scope = 2;
 		displayName = "Bloodsucker";
 		model = "StalkerFWConfig\mutants\bloodsucker\bloodsucker.p3d";
 		descriptionShort = "Mutant";
