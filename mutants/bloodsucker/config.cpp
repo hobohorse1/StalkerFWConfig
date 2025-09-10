@@ -287,8 +287,8 @@ class CfgVehicles
 				};
 				class CallToArmsShort
 				{
-					soundSet = "BloodSuckerGrowl_SoundSet";
-					id = 6;
+					soundSet = "BloodSuckerGrowl_SoundSet"; //Aggressive_Idle.anm
+					id = 6; //6
 				};
 			};
 		};
