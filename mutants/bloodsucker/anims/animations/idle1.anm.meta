@@ -1,16 +1,16 @@
 MetaFileClass {
  Name "{605EDEFC658A6081}StalkerFWConfig/mutants/bloodsucker/anims/animations/idle1.anm"
- Author "abc-002607"
- ChangeDate -141790425
+ Author "swade"
+ ChangeDate -811797719
  Configurations {
-  FBXAnimResourceClass PC {
-   SourceFile "idle1.fbx"
+  TXAResourceClass PC {
+   SourceFile "idle1.txa"
   }
-  FBXAnimResourceClass XBOX_ONE : PC {
+  TXAResourceClass XBOX_ONE : PC {
   }
-  FBXAnimResourceClass PS4 : PC {
+  TXAResourceClass PS4 : PC {
   }
-  FBXAnimResourceClass LINUX : PC {
+  TXAResourceClass LINUX : PC {
   }
  }
 }

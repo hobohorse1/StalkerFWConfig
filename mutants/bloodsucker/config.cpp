@@ -210,191 +210,56 @@ class CfgVehicles
 				};
 			};
 		};
+		aiAgentTemplate="BloodSucker";
+		class enfanimsys
+		{
+			meshObject="StalkerFWConfig\mutants\bloodsucker\bloodsucker.xob";
+			graphname="StalkerFWConfig\mutants\bloodsucker\anims\animgraph\bloodsucker.agr";
+			defaultinstance="StalkerFWConfig\mutants\bloodsucker\anims\animgraph\bloodsucker.asi";
+			startnode="AlignToTerrain_XRot";
+			skeletonName="bloodsucker.xob";
+		};
 		class AnimEvents
 		{
 			class Steps
 			{
-				class Walk1
-				{
-					soundLookupTable = "walkErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 1;
-				};
-				class Walk2
-				{
-					soundLookupTable = "walkErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 2;
-				};
-				class Walk3
-				{
-					soundLookupTable = "walkErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 3;
-				};
-				class Walk4
-				{
-					soundLookupTable = "walkErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 4;
-				};
-				class Run1
-				{
-					soundLookupTable = "runErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 5;
-				};
-				class Run2
-				{
-					soundLookupTable = "runErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 6;
-				};
-				class Run3
-				{
-					soundLookupTable = "runErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 7;
-				};
-				class Run4
-				{
-					soundLookupTable = "runErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 8;
-				};
-				class Sprint1
-				{
-					soundLookupTable = "sprintErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 9;
-				};
-				class Sprint2
-				{
-					soundLookupTable = "sprintErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 10;
-				};
-				class Sprint3
-				{
-					soundLookupTable = "sprintErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 11;
-				};
-				class Sprint4
-				{
-					soundLookupTable = "sprintErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 12;
-				};
-				class Scuff1
-				{
-					soundLookupTable = "scuffErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 17;
-				};
-				class Scuff2
-				{
-					soundLookupTable = "scuffErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 18;
-				};
-				class Sccuff3
-				{
-					soundLookupTable = "scuffErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 19;
-				};
-				class Scuff4
-				{
-					soundLookupTable = "scuffErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 20;
-				};
-				class landFeetErc
-				{
-					soundLookupTable = "landFeetErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 21;
-				};
-				class landFootErc
-				{
-					soundLookupTable = "landFootErc_Boots_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 22;
-				};
-				class Bodyfall
-				{
-					soundLookupTable = "bodyfall_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 23;
-				};
-				class Bodyfall_Hand
-				{
-					soundLookupTable = "bodyfall_hand_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 24;
-				};
-				class Bodyfall_Slide
-				{
-					soundLookupTable = "bodyfall_slide_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 25;
-				};
-				class Prone_Walk_L
-				{
-					soundLookupTable = "walkProne_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 27;
-				};
-				class Prone_Walk_R
-				{
-					soundLookupTable = "walkProne_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 28;
-				};
-				class Prone_Run_L
-				{
-					soundLookupTable = "runProne_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 29;
-				};
-				class Prone_Run_R
-				{
-					soundLookupTable = "runProne_Zmb_LookupTable";
-					noise = "ZombieStepNoise";
-					id = 30;
-				};
+				
 			};
 			class Sounds
 			{
 				class Attack_Light1
 				{
 					soundSet = "BloodSuckerHitHand_SoundSet";
-					id = 1;
+					id = 10;
 				};
 				class Attack_Light2
 				{
 					soundSet = "BloodSuckerHitHand_SoundSet";
-					id = 2;
+					id = 11;
 				};
 				class Attack_Heavy1
 				{
 					soundSet = "BloodSuckerHitHand_SoundSet";
-					id = 3;
+					id = 12;
 				};
 				class Attack_Heavy2
 				{
 					soundSet = "BloodSuckerHitHand_SoundSet";
-					id = 4;
+					id = 13;
 				};
 				class TwoHands
 				{
 					soundSet = "BloodSuckerHitHand_SoundSet";
-					id = 5;
+					id = 14;
 				};
 			};
 			class SoundVoice
 			{
+				class Idle
+				{
+					soundSet = "BloodSuckerIdle_SoundSet";
+					id = 0;
+				};
 				class LightHit
 				{
 					soundSet = "BloodSuckerHit_SoundSet";
@@ -408,22 +273,22 @@ class CfgVehicles
 				class Attack
 				{
 					soundSet = "BloodSuckerAttack_SoundSet";
-					id = 5;
+					id = 3;
 				};
 				class Jump
 				{
 					soundSet = "ZmbF_Normal_Jump_Soundset";
-					id = 10;
+					id = 4;
 				};
 				class Land
 				{
 					soundSet = "ZmbF_Normal_Land_Soundset";
-					id = 11;
+					id = 5;
 				};
 				class CallToArmsShort
 				{
 					soundSet = "BloodSuckerGrowl_SoundSet";
-					id = 20;
+					id = 6;
 				};
 			};
 		};

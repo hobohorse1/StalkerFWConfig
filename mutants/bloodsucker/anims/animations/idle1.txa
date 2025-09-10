@@ -33510,4 +33510,7 @@ $animation "" {
    }
   }
  }
+ $events {
+  #event 10 "SoundVoice" "" 0
+ }
 }
