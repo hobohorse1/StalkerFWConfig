@@ -10,10 +10,10 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2025
 		Month: 09
-		Day: 07
-		Hour: 17
-		Minute: 41
-		Second: 00
+		Day: 15
+		Hour: 20
+		Minute: 56
+		Second: 11
 		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins build 20070228"
@@ -21,7 +21,7 @@ FBXHeaderExtension:  {
 		FlagPLE: 0
 	}
 }
-CreationTime: "2025-09-07 17:41:00:000"
+CreationTime: "2025-09-15 20:56:11:000"
 Creator: "Blender version 2.79 (sub 0)"
 
 ; Object definitions
@@ -29,9 +29,9 @@ Creator: "Blender version 2.79 (sub 0)"
 
 Definitions:  {
 	Version: 100
-	Count: 85
+	Count: 65
 	ObjectType: "Model" {
-		Count: 84
+		Count: 64
 	}
 	ObjectType: "Geometry" {
 		Count: 0
@@ -539,88 +539,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bip01_l_toe1_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.019999956712127,0.000000015203113,0.000000000873115
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000007203705370,0.000016381786723,-0.000075061210987
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,0.999999940395355,0.999999940395355
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::bip01_r_thigh", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -874,88 +792,6 @@ Objects:  {
 			Property: "Visibility", "Visibility", "A+",1
 			Property: "Lcl Translation", "Lcl Translation", "A+",0.009030482731760,-0.108691275119781,-0.233019411563873
 			Property: "Lcl Rotation", "Lcl Rotation", "A+",90.000125447753916,-0.000038421527204,0.000004304536854
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",0.999999940395355,1.000000000000000,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
-	Model: "Model::bip01_r_toe1_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.019999971613288,0.000000003574709,0.000000000323672
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.000025389982284,0.000002348651038,-0.000036712657615
 			Property: "Lcl Scaling", "Lcl Scaling", "A+",0.999999940395355,1.000000000000000,1.000000000000000
 			Property: "RotationOffset", "Vector3D", "",0,0,0
 			Property: "RotationPivot", "Vector3D", "",0,0,0
@@ -1605,88 +1441,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bip01_ponytail1_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.019999988377094,0.000000004656613,0.000000107102096
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000015207839817,-0.000012726566671,0.000023585495349
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,1.000000000000000,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::bip01_ponytail2", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -1695,88 +1449,6 @@ Objects:  {
 			Property: "Lcl Translation", "Lcl Translation", "A+",-0.032399397343397,-0.123781964182854,-0.164115056395531
 			Property: "Lcl Rotation", "Lcl Rotation", "A+",81.954066982842079,4.556824310904105,-0.648022575157932
 			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,1.000000119209290,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
-	Model: "Model::bip01_ponytail2_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.019999975338578,0.000000039319275,0.000000154483132
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000003121606841,0.000028174530326,-0.000012272995351
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,1.000000000000000,1.000000000000000
 			Property: "RotationOffset", "Vector3D", "",0,0,0
 			Property: "RotationPivot", "Vector3D", "",0,0,0
 			Property: "ScalingOffset", "Vector3D", "",0,0,0
@@ -2179,88 +1851,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bone04_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000018179417,0.000000033527613,0.000000039115548
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000002267835841,-0.000002334537721,0.000023745581165
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",0.999999880790710,1.000000000000000,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::bone14", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -2515,88 +2105,6 @@ Objects:  {
 			Property: "Lcl Translation", "Lcl Translation", "A+",0.000000143423676,-0.082432359457016,-0.000000000931323
 			Property: "Lcl Rotation", "Lcl Rotation", "A+",2.973778346924419,12.066895206644189,10.759340013638106
 			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000119209290,1.000000000000000,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
-	Model: "Model::bone17_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000040531158,-0.000000150874257,0.000000005587935
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.000002881486056,0.000000640329878,-0.000015154482221
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,1.000000000000000,1.000000000000000
 			Property: "RotationOffset", "Vector3D", "",0,0,0
 			Property: "RotationPivot", "Vector3D", "",0,0,0
 			Property: "ScalingOffset", "Vector3D", "",0,0,0
@@ -2999,88 +2507,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bone12_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.019999995827675,0.000000040978193,-0.000000014901161
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000001707547191,-0.000001387382277,0.000005949735097
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,1.000000000000000,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::bone24", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -3409,88 +2835,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bone22_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.019999964162707,-0.000000242143869,0.000000020954758
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000006196530670,-0.000002814783158,-0.000037779483847
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,0.999999940395355,0.999999940395355
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::pin_lookat", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -3499,88 +2843,6 @@ Objects:  {
 			Property: "Lcl Translation", "Lcl Translation", "A+",-0.002232033293694,-0.145988032221794,-0.231831297278404
 			Property: "Lcl Rotation", "Lcl Rotation", "A+",-49.500351424586832,0.001382074646262,-179.998912178430515
 			Property: "Lcl Scaling", "Lcl Scaling", "A+",0.999999761581421,0.999999940395355,0.999999940395355
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.233371
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
-	Model: "Model::pin_lookat_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.233371317386627,0.000000044703484,-0.000000195577741
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.000005469487421,-0.000004002063967,0.000002187795172
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",0.999999940395355,1.000000000000000,1.000000000000000
 			Property: "RotationOffset", "Vector3D", "",0,0,0
 			Property: "RotationPivot", "Vector3D", "",0,0,0
 			Property: "ScalingOffset", "Vector3D", "",0,0,0
@@ -4147,88 +3409,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bip01_l_finger01_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000007003546,0.000000025145710,0.000000031664968
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000000586969331,-0.000000266804315,-0.000002241155821
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000119209290,1.000000000000000,0.999999940395355
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::bip01_l_finger1", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -4319,88 +3499,6 @@ Objects:  {
 			Property: "Lcl Translation", "Lcl Translation", "A+",-0.000000078231096,-0.063348822295666,-0.000000186264515
 			Property: "Lcl Rotation", "Lcl Rotation", "A+",10.998121719474115,0.000005257484368,-0.000064120366691
 			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000119209290,1.000000000000000,0.999999940395355
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
-	Model: "Model::bip01_l_finger11_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000047981739,0.000000101979822,0.000000000000000
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000006189858528,-0.000014087265163,0.000006830188356
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,1.000000000000000,0.999999880790710
 			Property: "RotationOffset", "Vector3D", "",0,0,0
 			Property: "RotationPivot", "Vector3D", "",0,0,0
 			Property: "ScalingOffset", "Vector3D", "",0,0,0
@@ -4639,88 +3737,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bip01_l_finger21_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000055432320,-0.000000070780516,0.000000048428774
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.000000000000678,-0.000011205779921,0.000006936910876
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,0.999999880790710,0.999999880790710
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::bip01_l_finger3", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -4885,88 +3901,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bip01_l_finger31_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000005140901,0.000000011175871,-0.000000059604645
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000026466983034,0.000013446938185,-0.000013446932486
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,0.999999940395355,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::bip01_l_finger4", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -5057,88 +3991,6 @@ Objects:  {
 			Property: "Lcl Translation", "Lcl Translation", "A+",-0.000000022351742,-0.048174858093262,-0.000000040046871
 			Property: "Lcl Rotation", "Lcl Rotation", "A+",74.065055057516105,-0.000007937663806,-0.000005904794928
 			Property: "Lcl Scaling", "Lcl Scaling", "A+",0.999999940395355,1.000000000000000,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
-	Model: "Model::bip01_l_finger41_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000062882900,-0.000000026077032,-0.000000046100467
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000024092423452,0.000002988207151,0.000004335569704
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",0.999999940395355,1.000000119209290,1.000000000000000
 			Property: "RotationOffset", "Vector3D", "",0,0,0
 			Property: "RotationPivot", "Vector3D", "",0,0,0
 			Property: "ScalingOffset", "Vector3D", "",0,0,0
@@ -5705,88 +4557,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bip01_r_finger01_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000033080578,-0.000000037252903,0.000000006519258
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.000007270416206,-0.000003001547364,0.000010402031260
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,1.000000000000000,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::bip01_r_finger1", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -5877,88 +4647,6 @@ Objects:  {
 			Property: "Lcl Translation", "Lcl Translation", "A+",0.000000000000000,-0.063348919153214,-0.000000096857548
 			Property: "Lcl Rotation", "Lcl Rotation", "A+",10.998033780788552,0.000026671627962,0.000042797726179
 			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,0.999999880790710,0.999999880790710
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
-	Model: "Model::bip01_r_finger11_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000040531158,0.000000016763806,-0.000000052154064
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.000010672170578,-0.000020810732627,0.000004322230713
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000119209290,1.000000119209290,1.000000000000000
 			Property: "RotationOffset", "Vector3D", "",0,0,0
 			Property: "RotationPivot", "Vector3D", "",0,0,0
 			Property: "ScalingOffset", "Vector3D", "",0,0,0
@@ -6197,88 +4885,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bip01_r_finger21_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000033080578,0.000000014901161,-0.000000007450581
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",-0.000001280665660,-0.000024332550547,0.000023478778529
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",0.999999880790710,0.999999940395355,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::bip01_r_finger3", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -6369,88 +4975,6 @@ Objects:  {
 			Property: "Lcl Translation", "Lcl Translation", "A+",-0.000000048428774,-0.060928765684366,-0.000000119209290
 			Property: "Lcl Rotation", "Lcl Rotation", "A+",56.465078245765902,-0.000007607385237,0.000001621166277
 			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000119209290,1.000000119209290,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
-	Model: "Model::bip01_r_finger31_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.020000010728836,-0.000000029802322,-0.000000029802322
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000002134433912,0.000000533608987,-0.000025132961711
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,1.000000000000000,1.000000000000000
 			Property: "RotationOffset", "Vector3D", "",0,0,0
 			Property: "RotationPivot", "Vector3D", "",0,0,0
 			Property: "ScalingOffset", "Vector3D", "",0,0,0
@@ -6689,88 +5213,6 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::bip01_r_finger41_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.019999995827675,-0.000000029802322,-0.000000000931323
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000009284788403,-0.000000053360910,0.000000586969433
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",0.999999940395355,0.999999940395355,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.020000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Model: "Model::entityposition", "Limb" {
 		Version: 232
 		Properties60:  {
@@ -6853,94 +5295,12 @@ Objects:  {
 		Culling: "CullingOff"
 		TypeFlags: "Skeleton"
 	}
-	Model: "Model::entityposition_end", "Limb" {
-		Version: 232
-		Properties60:  {
-			Property: "QuaternionInterpolate", "bool", "",0
-			Property: "Visibility", "Visibility", "A+",1
-			Property: "Lcl Translation", "Lcl Translation", "A+",0.100000001490116,0.000000007549789,-0.000000000000000
-			Property: "Lcl Rotation", "Lcl Rotation", "A+",0.000000000000000,-0.000000000000000,0.000000000000000
-			Property: "Lcl Scaling", "Lcl Scaling", "A+",1.000000000000000,1.000000000000000,1.000000000000000
-			Property: "RotationOffset", "Vector3D", "",0,0,0
-			Property: "RotationPivot", "Vector3D", "",0,0,0
-			Property: "ScalingOffset", "Vector3D", "",0,0,0
-			Property: "ScalingPivot", "Vector3D", "",0,0,0
-			Property: "TranslationActive", "bool", "",0
-			Property: "TranslationMin", "Vector3D", "",0,0,0
-			Property: "TranslationMax", "Vector3D", "",0,0,0
-			Property: "TranslationMinX", "bool", "",0
-			Property: "TranslationMinY", "bool", "",0
-			Property: "TranslationMinZ", "bool", "",0
-			Property: "TranslationMaxX", "bool", "",0
-			Property: "TranslationMaxY", "bool", "",0
-			Property: "TranslationMaxZ", "bool", "",0
-			Property: "RotationOrder", "enum", "",0
-			Property: "RotationSpaceForLimitOnly", "bool", "",0
-			Property: "AxisLen", "double", "",10
-			Property: "PreRotation", "Vector3D", "",0,0,0
-			Property: "PostRotation", "Vector3D", "",0,0,0
-			Property: "RotationActive", "bool", "",0
-			Property: "RotationMin", "Vector3D", "",0,0,0
-			Property: "RotationMax", "Vector3D", "",0,0,0
-			Property: "RotationMinX", "bool", "",0
-			Property: "RotationMinY", "bool", "",0
-			Property: "RotationMinZ", "bool", "",0
-			Property: "RotationMaxX", "bool", "",0
-			Property: "RotationMaxY", "bool", "",0
-			Property: "RotationMaxZ", "bool", "",0
-			Property: "RotationStiffnessX", "double", "",0
-			Property: "RotationStiffnessY", "double", "",0
-			Property: "RotationStiffnessZ", "double", "",0
-			Property: "MinDampRangeX", "double", "",0
-			Property: "MinDampRangeY", "double", "",0
-			Property: "MinDampRangeZ", "double", "",0
-			Property: "MaxDampRangeX", "double", "",0
-			Property: "MaxDampRangeY", "double", "",0
-			Property: "MaxDampRangeZ", "double", "",0
-			Property: "MinDampStrengthX", "double", "",0
-			Property: "MinDampStrengthY", "double", "",0
-			Property: "MinDampStrengthZ", "double", "",0
-			Property: "MaxDampStrengthX", "double", "",0
-			Property: "MaxDampStrengthY", "double", "",0
-			Property: "MaxDampStrengthZ", "double", "",0
-			Property: "PreferedAngleX", "double", "",0
-			Property: "PreferedAngleY", "double", "",0
-			Property: "PreferedAngleZ", "double", "",0
-			Property: "InheritType", "enum", "",0
-			Property: "ScalingActive", "bool", "",0
-			Property: "ScalingMin", "Vector3D", "",1,1,1
-			Property: "ScalingMax", "Vector3D", "",1,1,1
-			Property: "ScalingMinX", "bool", "",0
-			Property: "ScalingMinY", "bool", "",0
-			Property: "ScalingMinZ", "bool", "",0
-			Property: "ScalingMaxX", "bool", "",0
-			Property: "ScalingMaxY", "bool", "",0
-			Property: "ScalingMaxZ", "bool", "",0
-			Property: "GeometricTranslation", "Vector3D", "",0,0,0
-			Property: "GeometricRotation", "Vector3D", "",0,0,0
-			Property: "GeometricScaling", "Vector3D", "",1,1,1
-			Property: "LookAtProperty", "object", ""
-			Property: "UpVectorProperty", "object", ""
-			Property: "Show", "bool", "",1
-			Property: "NegativePercentShapeSupport", "bool", "",1
-			Property: "DefaultAttributeIndex", "int", "",0
-			Property: "Size", "double", "",1
-			Property: "LimbLength", "double", "",0.100000
-			Property: "Color", "ColorRGB", "",0.8,0.8,0.8
-			Property: "Color", "Color", "A",0.8,0.8,0.8
-		}
-		MultiLayer: 0
-		MultiTake: 1
-		Shading: Y
-		Culling: "CullingOff"
-		TypeFlags: "Skeleton"
-	}
 	Pose: "Pose::BIND_POSES", "BindPose" {
 		Type: "BindPose"
 		Version: 100
 		Properties60:  {
 		}
-		NbPoseNodes: 84
+		NbPoseNodes: 64
 		PoseNode:  {
 			Node: "Model::bloodsucker"
 			Matrix: 100.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,-0.000016292067812,-100.000000000000000,0.000000000000000,0.000000000000000,100.000000000000000,-0.000016292067812,0.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000
@@ -6966,10 +5326,6 @@ Objects:  {
 			Matrix: 90.208587646484375,2.614787101745605,-43.076335906982422,0.000000000000000,43.112388610839844,-0.993017852306366,90.223800659179688,0.000000000000000,1.931403040885925,-99.960861206054688,-2.023067474365234,0.000000000000000,-27.035093307495117,0.165956333279610,-37.378036499023438,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bip01_l_toe1_end"
-			Matrix: 90.208534240722656,2.614817380905151,-43.076450347900391,0.000000000000000,43.112503051757812,-0.993027269840240,90.223747253417969,0.000000000000000,1.931423544883728,-99.960861206054688,-2.023091316223145,0.000000000000000,-25.230922698974609,0.218252032995224,-38.239562988281250,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::bip01_r_thigh"
 			Matrix: 96.406852722167969,12.145792961120605,23.626182556152344,0.000000000000000,-18.065406799316406,95.179924011230469,24.785511016845703,0.000000000000000,-19.477113723754883,-28.162910461425781,93.954673767089844,0.000000000000000,12.077319145202637,93.145355224609375,13.538715362548828,1.000000000000000
 		}
@@ -6984,10 +5340,6 @@ Objects:  {
 		PoseNode:  {
 			Node: "Model::bip01_r_toe1"
 			Matrix: 98.178718566894531,0.002690520603210,18.998353958129883,0.000000000000000,-18.998359680175781,0.001319945557043,98.178718566894531,0.000000000000000,0.002332649892196,-99.999435424804688,0.001753383898176,0.000000000000000,25.673866271972656,-0.288988739252090,-0.519654095172882,1.000000000000000
-		}
-		PoseNode:  {
-			Node: "Model::bip01_r_toe1_end"
-			Matrix: 98.178726196289062,0.002694618422538,18.998291015625000,0.000000000000000,-18.998298645019531,0.001364260911942,98.178733825683594,0.000000000000000,0.002328255446628,-99.999435424804688,0.001797669450752,0.000000000000000,27.637439727783203,-0.288934946060181,-0.139686957001686,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bip01_spine"
@@ -7018,16 +5370,8 @@ Objects:  {
 			Matrix: -97.998931884765625,-17.270460128784180,9.896556854248047,0.000000000000000,11.773952484130859,-10.206185340881348,98.778572082519531,0.000000000000000,-16.049449920654297,97.967170715332031,12.035372734069824,0.000000000000000,-4.136322975158691,167.833541870117188,-33.713886260986328,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bip01_ponytail1_end"
-			Matrix: -97.998931884765625,-17.270444869995117,9.896599769592285,0.000000000000000,11.773988723754883,-10.206151008605957,98.778572082519531,0.000000000000000,-16.049432754516602,97.967178344726562,12.035345077514648,0.000000000000000,-6.096302509307861,167.488128662109375,-33.515953063964844,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::bip01_ponytail2"
 			Matrix: -98.448577880859375,-14.989318847656250,-9.121715545654297,0.000000000000000,-7.132229328155518,-13.312830924987793,98.852920532226562,0.000000000000000,-16.031732559204102,97.969848632812500,12.037221908569336,0.000000000000000,1.583718895912170,168.759948730468750,-33.548488616943359,1.000000000000000
-		}
-		PoseNode:  {
-			Node: "Model::bip01_ponytail2_end"
-			Matrix: -98.448577880859375,-14.989363670349121,-9.121742248535156,0.000000000000000,-7.132250785827637,-13.312829971313477,98.852920532226562,0.000000000000000,-16.031780242919922,97.969841003417969,12.037213325500488,0.000000000000000,-0.385254055261612,168.460159301757812,-33.730922698974609,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bone01"
@@ -7046,10 +5390,6 @@ Objects:  {
 			Matrix: -99.412017822265625,2.261948108673096,10.589498519897461,0.000000000000000,4.722837924957275,97.059402465820312,23.604511260986328,0.000000000000000,-9.744196891784668,23.965837478637695,-96.595489501953125,0.000000000000000,-7.971813678741455,134.552581787109375,-32.164249420166016,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bone04_end"
-			Matrix: -99.412010192871094,2.261989355087280,10.589504241943359,0.000000000000000,4.722878932952881,97.059402465820312,23.604501724243164,0.000000000000000,-9.744193077087402,23.965831756591797,-96.595489501953125,0.000000000000000,-9.960055351257324,134.597808837890625,-31.952459335327148,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::bone14"
 			Matrix: 99.135734558105469,-13.090477943420410,-0.867485642433167,0.000000000000000,12.635137557983398,97.048263549804688,-20.541826248168945,0.000000000000000,3.530916690826416,20.254735946655273,97.863571166992188,0.000000000000000,-0.924906611442566,154.524002075195312,-31.138933181762695,1.000000000000000
 		}
@@ -7064,10 +5404,6 @@ Objects:  {
 		PoseNode:  {
 			Node: "Model::bone17"
 			Matrix: 96.050399780273438,-20.496828079223633,-18.820449829101562,0.000000000000000,23.269048690795898,96.252593994140625,13.927568435668945,0.000000000000000,15.260481834411621,-17.756715774536133,97.220436096191406,0.000000000000000,-7.833352565765381,134.690338134765625,-29.810764312744141,1.000000000000000
-		}
-		PoseNode:  {
-			Node: "Model::bone17_end"
-			Matrix: 96.050392150878906,-20.496852874755859,-18.820455551147461,0.000000000000000,23.269071578979492,96.252593994140625,13.927557945251465,0.000000000000000,15.260484695434570,-17.756710052490234,97.220436096191406,0.000000000000000,-5.912343502044678,134.280395507812500,-30.187171936035156,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bone19"
@@ -7086,10 +5422,6 @@ Objects:  {
 			Matrix: 8.030079841613770,35.827705383300781,-93.015556335449219,0.000000000000000,-17.098199844360352,92.428855895996094,34.125625610351562,0.000000000000000,98.199668884277344,13.163692474365234,13.548007011413574,0.000000000000000,14.234254837036133,140.896057128906250,-36.400302886962891,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bone12_end"
-			Matrix: 8.030082702636719,35.827716827392578,-93.015556335449219,0.000000000000000,-17.098199844360352,92.428855895996094,34.125640869140625,0.000000000000000,98.199668884277344,13.163689613342285,13.548009872436523,0.000000000000000,14.394857406616211,141.612609863281250,-38.260612487792969,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::bone24"
 			Matrix: 96.538070678710938,25.650938034057617,-4.736916542053223,0.000000000000000,-25.868402481079102,91.812126159667969,-30.026659011840820,0.000000000000000,-3.353290557861328,30.213573455810547,95.267898559570312,0.000000000000000,1.294216632843018,156.874526977539062,-31.208766937255859,1.000000000000000
 		}
@@ -7106,16 +5438,8 @@ Objects:  {
 			Matrix: 99.737792968750000,4.420340538024902,-5.731003761291504,0.000000000000000,-5.036665916442871,99.257003784179688,-11.088868141174316,0.000000000000000,5.197997570037842,11.349223136901855,99.217956542968750,0.000000000000000,4.944129943847656,136.366989135742188,-26.925088882446289,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bone22_end"
-			Matrix: 99.737800598144531,4.420275688171387,-5.730990886688232,0.000000000000000,-5.036599159240723,99.257003784179688,-11.088860511779785,0.000000000000000,5.197992801666260,11.349212646484375,99.217956542968750,0.000000000000000,6.938882827758789,136.455398559570312,-27.039709091186523,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::pin_lookat"
 			Matrix: 98.702056884765625,16.017580032348633,1.158719897270203,0.000000000000000,-9.284429550170898,62.787582397460938,-77.275596618652344,0.000000000000000,-13.105829238891602,76.164924621582031,63.459758758544922,0.000000000000000,-1.650479078292847,170.351882934570312,-40.396289825439453,1.000000000000000
-		}
-		PoseNode:  {
-			Node: "Model::pin_lookat_end"
-			Matrix: 98.702049255371094,16.017585754394531,1.158721327781677,0.000000000000000,-9.284431457519531,62.787574768066406,-77.275596618652344,0.000000000000000,-13.105836868286133,76.164932250976562,63.459754943847656,0.000000000000000,21.383749008178711,174.089935302734375,-40.125877380371094,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bip01_l_clavicle"
@@ -7142,20 +5466,12 @@ Objects:  {
 			Matrix: 18.803337097167969,-6.291290760040283,-98.014556884765625,0.000000000000000,-26.862592697143555,95.660057067871094,-11.293544769287109,0.000000000000000,94.471336364746094,28.452844619750977,16.297292709350586,0.000000000000000,-21.990606307983398,94.593910217285156,-4.001422405242920,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bip01_l_finger01_end"
-			Matrix: 18.803340911865234,-6.291294574737549,-98.014556884765625,0.000000000000000,-26.862592697143555,95.660057067871094,-11.293548583984375,0.000000000000000,94.471336364746094,28.452844619750977,16.297294616699219,0.000000000000000,-21.614540100097656,94.468086242675781,-5.961712837219238,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::bip01_l_finger1"
 			Matrix: -85.382240295410156,-22.181154251098633,47.094234466552734,0.000000000000000,-13.218792915344238,96.740669250488281,21.598562240600586,0.000000000000000,-50.350093841552734,12.216013908386230,-85.531463623046875,0.000000000000000,-25.354839324951172,92.676887512207031,-9.957133293151855,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bip01_l_finger11"
 			Matrix: -85.382232666015625,-22.181262969970703,47.094215393066406,0.000000000000000,-22.581729888916016,97.294387817382812,4.884509086608887,0.000000000000000,-46.903480529785156,-6.464220046997070,-88.081047058105469,0.000000000000000,-24.517423629760742,86.548477172851562,-11.325364112854004,1.000000000000000
-		}
-		PoseNode:  {
-			Node: "Model::bip01_l_finger11_end"
-			Matrix: -85.382240295410156,-22.181253433227539,47.094192504882812,0.000000000000000,-22.581724166870117,97.294387817382812,4.884493827819824,0.000000000000000,-46.903457641601562,-6.464225769042969,-88.081062316894531,0.000000000000000,-26.225072860717773,86.104850769042969,-10.383479118347168,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bip01_l_finger2"
@@ -7166,10 +5482,6 @@ Objects:  {
 			Matrix: -85.283126831054688,-8.059422492980957,51.592937469482422,0.000000000000000,-40.413253784179688,72.755783081054688,-55.437839508056641,0.000000000000000,-33.068901062011719,-68.129531860351562,-65.305511474609375,0.000000000000000,-28.518714904785156,84.148986816406250,-8.548695564270020,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bip01_l_finger21_end"
-			Matrix: -85.283142089843750,-8.059430122375488,51.592918395996094,0.000000000000000,-40.413246154785156,72.755783081054688,-55.437847137451172,0.000000000000000,-33.068881988525391,-68.129531860351562,-65.305526733398438,0.000000000000000,-30.224380493164062,83.987792968750000,-7.516836166381836,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::bip01_l_finger3"
 			Matrix: -82.571594238281250,9.585517883300781,55.588180541992188,0.000000000000000,0.253036350011826,98.607513427734375,-16.627880096435547,0.000000000000000,-56.408000946044922,-13.589291572570801,-81.446075439453125,0.000000000000000,-32.456840515136719,92.352912902832031,-6.928803920745850,1.000000000000000
 		}
@@ -7178,20 +5490,12 @@ Objects:  {
 			Matrix: -82.571617126464844,9.585608482360840,55.588134765625000,0.000000000000000,-46.889179229736328,43.118759155273438,-77.085464477539062,0.000000000000000,-31.358066558837891,-89.715568542480469,-31.109264373779297,0.000000000000000,-32.472251892089844,86.344856262207031,-5.915676116943359,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bip01_l_finger31_end"
-			Matrix: -82.571601867675781,9.585618972778320,55.588157653808594,0.000000000000000,-46.889213562011719,43.118717193603516,-77.085464477539062,0.000000000000000,-31.358062744140625,-89.715583801269531,-31.109212875366211,0.000000000000000,-34.123687744140625,86.536567687988281,-4.803913116455078,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::bip01_l_finger4"
 			Matrix: -79.008079528808594,22.071294784545898,57.188953399658203,0.000000000000000,0.487303733825684,93.516326904296875,-35.418193817138672,0.000000000000000,-61.298286437988281,-27.704601287841797,-73.993041992187500,0.000000000000000,-35.126338958740234,92.410888671875000,-4.387740612030029,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bip01_l_finger41"
 			Matrix: -79.008079528808594,22.071279525756836,57.188945770263672,0.000000000000000,-58.809051513671875,-0.965532243251801,-80.873710632324219,0.000000000000000,-17.297740936279297,-97.529060363769531,13.742740631103516,0.000000000000000,-35.149810791015625,87.905761718750000,-2.681468009948730,1.000000000000000
-		}
-		PoseNode:  {
-			Node: "Model::bip01_l_finger41_end"
-			Matrix: -79.008079528808594,22.071281433105469,57.188930511474609,0.000000000000000,-58.809051513671875,-0.965575098991394,-80.873710632324219,0.000000000000000,-17.297721862792969,-97.529060363769531,13.742777824401855,0.000000000000000,-36.729976654052734,88.347183227539062,-1.537687778472900,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bip01_r_clavicle"
@@ -7218,20 +5522,12 @@ Objects:  {
 			Matrix: -0.304063469171524,11.443200111389160,99.342636108398438,0.000000000000000,38.174228668212891,91.832946777343750,-10.461297035217285,0.000000000000000,-92.426368713378906,37.891483306884766,-4.647590160369873,0.000000000000000,20.125087738037109,65.673080444335938,-23.535341262817383,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bip01_r_finger01_end"
-			Matrix: -0.304061353206635,11.443218231201172,99.342636108398438,0.000000000000000,38.174240112304688,91.832939147949219,-10.461313247680664,0.000000000000000,-92.426361083984375,37.891490936279297,-4.647595882415771,0.000000000000000,20.119007110595703,65.901954650878906,-21.548486709594727,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::bip01_r_finger1"
 			Matrix: -71.732650756835938,26.394315719604492,-64.480720520019531,0.000000000000000,18.508678436279297,96.440330505371094,18.886274337768555,0.000000000000000,67.170318603515625,1.613093733787537,-74.064445495605469,0.000000000000000,24.381786346435547,63.048515319824219,-28.580718994140625,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bip01_r_finger11"
 			Matrix: -71.732673645019531,26.394386291503906,-64.480667114257812,0.000000000000000,30.983221054077148,94.976806640625000,4.409784793853760,0.000000000000000,62.405609130859375,-16.814943313598633,-76.307235717773438,0.000000000000000,23.209274291992188,56.939128875732422,-29.777143478393555,1.000000000000000
-		}
-		PoseNode:  {
-			Node: "Model::bip01_r_finger11_end"
-			Matrix: -71.732643127441406,26.394390106201172,-64.480697631835938,0.000000000000000,30.983215332031250,94.976814270019531,4.409804821014404,0.000000000000000,62.405647277832031,-16.814935684204102,-76.307205200195312,0.000000000000000,21.774618148803711,57.467014312744141,-31.066757202148438,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bip01_r_finger2"
@@ -7242,20 +5538,12 @@ Objects:  {
 			Matrix: -72.191436767578125,12.039817810058594,-68.142776489257812,0.000000000000000,57.718662261962891,64.795967102050781,-49.699474334716797,0.000000000000000,38.170032501220703,-75.209884643554688,-53.726364135742188,0.000000000000000,26.321187973022461,54.390911102294922,-26.130336761474609,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bip01_r_finger21_end"
-			Matrix: -72.191398620605469,12.039810180664062,-68.142822265625000,0.000000000000000,57.718688964843750,64.795959472656250,-49.699443817138672,0.000000000000000,38.170063018798828,-75.209892272949219,-53.726333618164062,0.000000000000000,24.877357482910156,54.631706237792969,-27.493194580078125,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::bip01_r_finger3"
 			Matrix: -70.559524536132812,-6.014110565185547,-70.605834960937500,0.000000000000000,13.065779685974121,96.826622009277344,-21.304746627807617,0.000000000000000,69.646522521972656,-24.257743835449219,-67.534591674804688,0.000000000000000,30.678457260131836,62.301822662353516,-24.163854598999023,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bip01_r_finger31"
 			Matrix: -70.559524536132812,-6.014110088348389,-70.605834960937500,0.000000000000000,65.271934509277344,33.271377563476562,-68.063110351562500,0.000000000000000,27.584922790527344,-94.110816955566406,-19.550605773925781,0.000000000000000,29.882371902465820,56.402305603027344,-22.865774154663086,1.000000000000000
-		}
-		PoseNode:  {
-			Node: "Model::bip01_r_finger31_end"
-			Matrix: -70.559547424316406,-6.014123916625977,-70.605804443359375,0.000000000000000,65.271903991699219,33.271373748779297,-68.063140869140625,0.000000000000000,27.584918975830078,-94.110816955566406,-19.550603866577148,0.000000000000000,28.471179962158203,56.282020568847656,-24.277891159057617,1.000000000000000
 		}
 		PoseNode:  {
 			Node: "Model::bip01_r_finger4"
@@ -7266,16 +5554,8 @@ Objects:  {
 			Matrix: -68.045074462890625,-18.848777770996094,-70.813774108886719,0.000000000000000,73.153427124023438,-11.809084892272949,-67.149971008300781,0.000000000000000,4.294480323791504,-97.494979858398438,21.824016571044922,0.000000000000000,32.016597747802734,57.939327239990234,-19.239877700805664,1.000000000000000
 		}
 		PoseNode:  {
-			Node: "Model::bip01_r_finger41_end"
-			Matrix: -68.045074462890625,-18.848779678344727,-70.813774108886719,0.000000000000000,73.153427124023438,-11.809101104736328,-67.149963378906250,0.000000000000000,4.294468402862549,-97.494979858398438,21.824029922485352,0.000000000000000,30.655696868896484,57.562355041503906,-20.656154632568359,1.000000000000000
-		}
-		PoseNode:  {
 			Node: "Model::entityposition"
 			Matrix: -100.000000000000000,-0.000000001409668,0.000008742277714,0.000000000000000,0.000016292067812,0.000016293479348,100.000000000000000,0.000000000000000,-0.000000001411093,100.000000000000000,-0.000016293479348,0.000000000000000,0.000000000000000,0.000000000000000,0.000000000000000,1.000000000000000
-		}
-		PoseNode:  {
-			Node: "Model::entityposition_end"
-			Matrix: -100.000000000000000,-0.000000001409668,0.000008742277714,0.000000000000000,0.000016292067812,0.000016293479348,100.000000000000000,0.000000000000000,-0.000000001411093,100.000000000000000,-0.000016293479348,0.000000000000000,-10.000000000000000,-0.000000000140844,0.000001629206849,1.000000000000000
 		}
 	}
 	GlobalSettings:  {
@@ -7308,8 +5588,6 @@ Relations:  {
 	}
 	Model: "Model::bip01_l_toe1", "Limb" {
 	}
-	Model: "Model::bip01_l_toe1_end", "Limb" {
-	}
 	Model: "Model::bip01_r_thigh", "Limb" {
 	}
 	Model: "Model::bip01_r_calf", "Limb" {
@@ -7317,8 +5595,6 @@ Relations:  {
 	Model: "Model::bip01_r_foot", "Limb" {
 	}
 	Model: "Model::bip01_r_toe1", "Limb" {
-	}
-	Model: "Model::bip01_r_toe1_end", "Limb" {
 	}
 	Model: "Model::bip01_spine", "Limb" {
 	}
@@ -7334,11 +5610,7 @@ Relations:  {
 	}
 	Model: "Model::bip01_ponytail1", "Limb" {
 	}
-	Model: "Model::bip01_ponytail1_end", "Limb" {
-	}
 	Model: "Model::bip01_ponytail2", "Limb" {
-	}
-	Model: "Model::bip01_ponytail2_end", "Limb" {
 	}
 	Model: "Model::bone01", "Limb" {
 	}
@@ -7348,8 +5620,6 @@ Relations:  {
 	}
 	Model: "Model::bone04", "Limb" {
 	}
-	Model: "Model::bone04_end", "Limb" {
-	}
 	Model: "Model::bone14", "Limb" {
 	}
 	Model: "Model::bone15", "Limb" {
@@ -7357,8 +5627,6 @@ Relations:  {
 	Model: "Model::bone16", "Limb" {
 	}
 	Model: "Model::bone17", "Limb" {
-	}
-	Model: "Model::bone17_end", "Limb" {
 	}
 	Model: "Model::bone19", "Limb" {
 	}
@@ -7368,8 +5636,6 @@ Relations:  {
 	}
 	Model: "Model::bone12", "Limb" {
 	}
-	Model: "Model::bone12_end", "Limb" {
-	}
 	Model: "Model::bone24", "Limb" {
 	}
 	Model: "Model::bone20", "Limb" {
@@ -7378,11 +5644,7 @@ Relations:  {
 	}
 	Model: "Model::bone22", "Limb" {
 	}
-	Model: "Model::bone22_end", "Limb" {
-	}
 	Model: "Model::pin_lookat", "Limb" {
-	}
-	Model: "Model::pin_lookat_end", "Limb" {
 	}
 	Model: "Model::bip01_l_clavicle", "Limb" {
 	}
@@ -7396,31 +5658,21 @@ Relations:  {
 	}
 	Model: "Model::bip01_l_finger01", "Limb" {
 	}
-	Model: "Model::bip01_l_finger01_end", "Limb" {
-	}
 	Model: "Model::bip01_l_finger1", "Limb" {
 	}
 	Model: "Model::bip01_l_finger11", "Limb" {
-	}
-	Model: "Model::bip01_l_finger11_end", "Limb" {
 	}
 	Model: "Model::bip01_l_finger2", "Limb" {
 	}
 	Model: "Model::bip01_l_finger21", "Limb" {
 	}
-	Model: "Model::bip01_l_finger21_end", "Limb" {
-	}
 	Model: "Model::bip01_l_finger3", "Limb" {
 	}
 	Model: "Model::bip01_l_finger31", "Limb" {
 	}
-	Model: "Model::bip01_l_finger31_end", "Limb" {
-	}
 	Model: "Model::bip01_l_finger4", "Limb" {
 	}
 	Model: "Model::bip01_l_finger41", "Limb" {
-	}
-	Model: "Model::bip01_l_finger41_end", "Limb" {
 	}
 	Model: "Model::bip01_r_clavicle", "Limb" {
 	}
@@ -7434,35 +5686,23 @@ Relations:  {
 	}
 	Model: "Model::bip01_r_finger01", "Limb" {
 	}
-	Model: "Model::bip01_r_finger01_end", "Limb" {
-	}
 	Model: "Model::bip01_r_finger1", "Limb" {
 	}
 	Model: "Model::bip01_r_finger11", "Limb" {
-	}
-	Model: "Model::bip01_r_finger11_end", "Limb" {
 	}
 	Model: "Model::bip01_r_finger2", "Limb" {
 	}
 	Model: "Model::bip01_r_finger21", "Limb" {
 	}
-	Model: "Model::bip01_r_finger21_end", "Limb" {
-	}
 	Model: "Model::bip01_r_finger3", "Limb" {
 	}
 	Model: "Model::bip01_r_finger31", "Limb" {
-	}
-	Model: "Model::bip01_r_finger31_end", "Limb" {
 	}
 	Model: "Model::bip01_r_finger4", "Limb" {
 	}
 	Model: "Model::bip01_r_finger41", "Limb" {
 	}
-	Model: "Model::bip01_r_finger41_end", "Limb" {
-	}
 	Model: "Model::entityposition", "Limb" {
-	}
-	Model: "Model::entityposition_end", "Limb" {
 	}
 	Model: "Model::Producer Perspective", "Camera" {
 	}
@@ -7492,12 +5732,10 @@ Connections:  {
 	Connect: "OO", "Model::bip01_l_calf", "Model::bip01_l_thigh"
 	Connect: "OO", "Model::bip01_l_foot", "Model::bip01_l_calf"
 	Connect: "OO", "Model::bip01_l_toe1", "Model::bip01_l_foot"
-	Connect: "OO", "Model::bip01_l_toe1_end", "Model::bip01_l_toe1"
 	Connect: "OO", "Model::bip01_r_thigh", "Model::bip01_pelvis"
 	Connect: "OO", "Model::bip01_r_calf", "Model::bip01_r_thigh"
 	Connect: "OO", "Model::bip01_r_foot", "Model::bip01_r_calf"
 	Connect: "OO", "Model::bip01_r_toe1", "Model::bip01_r_foot"
-	Connect: "OO", "Model::bip01_r_toe1_end", "Model::bip01_r_toe1"
 	Connect: "OO", "Model::bip01_spine", "Model::bip01_pelvis"
 	Connect: "OO", "Model::bip01_spine1", "Model::bip01_spine"
 	Connect: "OO", "Model::bip01_spine2", "Model::bip01_spine1"
@@ -7505,79 +5743,61 @@ Connections:  {
 	Connect: "OO", "Model::bip01_neck", "Model::bip01_spine3"
 	Connect: "OO", "Model::bip01_head", "Model::bip01_neck"
 	Connect: "OO", "Model::bip01_ponytail1", "Model::bip01_head"
-	Connect: "OO", "Model::bip01_ponytail1_end", "Model::bip01_ponytail1"
 	Connect: "OO", "Model::bip01_ponytail2", "Model::bip01_head"
-	Connect: "OO", "Model::bip01_ponytail2_end", "Model::bip01_ponytail2"
 	Connect: "OO", "Model::bone01", "Model::bip01_head"
 	Connect: "OO", "Model::bone02", "Model::bone01"
 	Connect: "OO", "Model::bone03", "Model::bone02"
 	Connect: "OO", "Model::bone04", "Model::bone03"
-	Connect: "OO", "Model::bone04_end", "Model::bone04"
 	Connect: "OO", "Model::bone14", "Model::bip01_head"
 	Connect: "OO", "Model::bone15", "Model::bone14"
 	Connect: "OO", "Model::bone16", "Model::bone15"
 	Connect: "OO", "Model::bone17", "Model::bone16"
-	Connect: "OO", "Model::bone17_end", "Model::bone17"
 	Connect: "OO", "Model::bone19", "Model::bip01_head"
 	Connect: "OO", "Model::bone10", "Model::bone19"
 	Connect: "OO", "Model::bone11", "Model::bone10"
 	Connect: "OO", "Model::bone12", "Model::bone11"
-	Connect: "OO", "Model::bone12_end", "Model::bone12"
 	Connect: "OO", "Model::bone24", "Model::bip01_head"
 	Connect: "OO", "Model::bone20", "Model::bone24"
 	Connect: "OO", "Model::bone21", "Model::bone20"
 	Connect: "OO", "Model::bone22", "Model::bone21"
-	Connect: "OO", "Model::bone22_end", "Model::bone22"
 	Connect: "OO", "Model::pin_lookat", "Model::bip01_head"
-	Connect: "OO", "Model::pin_lookat_end", "Model::pin_lookat"
 	Connect: "OO", "Model::bip01_l_clavicle", "Model::bip01_neck"
 	Connect: "OO", "Model::bip01_l_upperarm", "Model::bip01_l_clavicle"
 	Connect: "OO", "Model::bip01_l_forearm", "Model::bip01_l_upperarm"
 	Connect: "OO", "Model::bip01_l_hand", "Model::bip01_l_forearm"
 	Connect: "OO", "Model::bip01_l_finger0", "Model::bip01_l_hand"
 	Connect: "OO", "Model::bip01_l_finger01", "Model::bip01_l_finger0"
-	Connect: "OO", "Model::bip01_l_finger01_end", "Model::bip01_l_finger01"
 	Connect: "OO", "Model::bip01_l_finger1", "Model::bip01_l_hand"
 	Connect: "OO", "Model::bip01_l_finger11", "Model::bip01_l_finger1"
-	Connect: "OO", "Model::bip01_l_finger11_end", "Model::bip01_l_finger11"
 	Connect: "OO", "Model::bip01_l_finger2", "Model::bip01_l_hand"
 	Connect: "OO", "Model::bip01_l_finger21", "Model::bip01_l_finger2"
-	Connect: "OO", "Model::bip01_l_finger21_end", "Model::bip01_l_finger21"
 	Connect: "OO", "Model::bip01_l_finger3", "Model::bip01_l_hand"
 	Connect: "OO", "Model::bip01_l_finger31", "Model::bip01_l_finger3"
-	Connect: "OO", "Model::bip01_l_finger31_end", "Model::bip01_l_finger31"
 	Connect: "OO", "Model::bip01_l_finger4", "Model::bip01_l_hand"
 	Connect: "OO", "Model::bip01_l_finger41", "Model::bip01_l_finger4"
-	Connect: "OO", "Model::bip01_l_finger41_end", "Model::bip01_l_finger41"
 	Connect: "OO", "Model::bip01_r_clavicle", "Model::bip01_neck"
 	Connect: "OO", "Model::bip01_r_upperarm", "Model::bip01_r_clavicle"
 	Connect: "OO", "Model::bip01_r_forearm", "Model::bip01_r_upperarm"
 	Connect: "OO", "Model::bip01_r_hand", "Model::bip01_r_forearm"
 	Connect: "OO", "Model::bip01_r_finger0", "Model::bip01_r_hand"
 	Connect: "OO", "Model::bip01_r_finger01", "Model::bip01_r_finger0"
-	Connect: "OO", "Model::bip01_r_finger01_end", "Model::bip01_r_finger01"
 	Connect: "OO", "Model::bip01_r_finger1", "Model::bip01_r_hand"
 	Connect: "OO", "Model::bip01_r_finger11", "Model::bip01_r_finger1"
-	Connect: "OO", "Model::bip01_r_finger11_end", "Model::bip01_r_finger11"
 	Connect: "OO", "Model::bip01_r_finger2", "Model::bip01_r_hand"
 	Connect: "OO", "Model::bip01_r_finger21", "Model::bip01_r_finger2"
-	Connect: "OO", "Model::bip01_r_finger21_end", "Model::bip01_r_finger21"
 	Connect: "OO", "Model::bip01_r_finger3", "Model::bip01_r_hand"
 	Connect: "OO", "Model::bip01_r_finger31", "Model::bip01_r_finger3"
-	Connect: "OO", "Model::bip01_r_finger31_end", "Model::bip01_r_finger31"
 	Connect: "OO", "Model::bip01_r_finger4", "Model::bip01_r_hand"
 	Connect: "OO", "Model::bip01_r_finger41", "Model::bip01_r_finger4"
-	Connect: "OO", "Model::bip01_r_finger41_end", "Model::bip01_r_finger41"
 	Connect: "OO", "Model::entityposition", "Model::bloodsucker"
-	Connect: "OO", "Model::entityposition_end", "Model::entityposition"
 }
 ;Takes and animation section
 ;----------------------------------------------------
 
 Takes:  {
-	Current: "bloodsucker_Scene_Scene_007"
-	Take: "bloodsucker_Scene_Scene_007" {
-		FileName: "bloodsucker_Scene_Scene_007.tak"
+	Current: "bloodsucker_Scene_Scene_005"
+	Take: "bloodsucker_Scene_Scene_005" {
+		FileName: "bloodsucker_Scene_Scene_005.tak"
 		LocalTime: 0,382960226750
 		ReferenceTime: 0,382960226750
 
@@ -8599,100 +6819,6 @@ Takes:  {
 				}
 			}
 		}
-		Model: "Model::bip01_l_toe1_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.019999979063869
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.019999979063869,L,
-							382960226750,0.019999954849482,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000000015372279
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000015372279,L,
-							382960226750,-0.000000006542905,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000000000000,L,
-							382960226750,-0.000000000058208,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000007310436032
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000007310436032,L,
-							382960226750,0.000007363798513,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000016648586102
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000016648586102,L,
-							382960226750,0.000016488503543,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000075854119911
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000075854119911,L,
-							382960226750,-0.000072855906989,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000119209290
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000119209290,L,
-							382960226750,0.999999940395355,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000119209290
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000119209290,L,
-							382960226750,0.999999940395355,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
 		Model: "Model::bip01_r_thigh" {
 			Version: 1.1
 			Channel: "Transform" {
@@ -9345,101 +7471,6 @@ Takes:  {
 						KeyCount: 1
 						Key: 
 							0,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
-		Model: "Model::bip01_r_toe1_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.019999980926514
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.019999980926514,L,
-							382960226750,0.020000001415610,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000004561784
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000004561784,L,
-							382960226750,0.000000007273158,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000000262027
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000000262027,L,
-							382960226750,-0.000000000313852,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: -0.000025389891092
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000025389891092,L,
-							382960226750,-0.000025389842238,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000002348190392
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000002348190392,L,
-							382960226750,0.000002348372778,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000035756575347
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000035756575347,L,
-							382960226750,-0.000036692735231,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 0.999999940395355
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999940395355,L,
-							382960226750,0.999999880790710,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999940395355,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999880790710,L
 						Color: 0,0,1
 					}
 					LayerType: 3
@@ -11114,101 +9145,6 @@ Takes:  {
 				}
 			}
 		}
-		Model: "Model::bip01_ponytail1_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000036805868
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000036805868,L,
-							382960226750,0.019999999552965,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000000026077032
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000026077032,L,
-							382960226750,0.000000078696758,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000079162419
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000079162419,L,
-							382960226750,-0.000000061467290,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000015261202298
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000015261202298,L,
-							382960226750,0.000015261203927,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000011579303449
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000011579303449,L,
-							382960226750,-0.000010778892284,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000023798937132
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000023798937132,L,
-							382960226750,0.000024119105507,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000119209290
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000119209290,L,
-							382960226750,1.000000000000000,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000119209290
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000119209290,L,
-							382960226750,1.000000000000000,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000119209290
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000119209290,L,
-							382960226750,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
 		Model: "Model::bip01_ponytail2" {
 			Version: 1.1
 			Channel: "Transform" {
@@ -11297,99 +9233,6 @@ Takes:  {
 						Key: 
 							0,1.000000000000000,L,
 							382960226750,0.999999880790710,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
-		Model: "Model::bip01_ponytail2_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000016316772
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000016316772,L,
-							382960226750,0.019999977201223,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000053609256
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000053609256,L,
-							382960226750,-0.000000066036591,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000040221494
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000040221494,L,
-							382960226750,-0.000000007508788,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000003415094992
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000003415094992,L,
-							382960226750,0.000002134434116,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000027480839239
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000027480839239,L,
-							382960226750,0.000027694282650,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000011846109342
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000011846109342,L,
-							382960226750,-0.000012166274459,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.999999940395355
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999940395355,L,
-							382960226750,1.000000000000000,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
 						Color: 0,0,1
 					}
 					LayerType: 3
@@ -12414,101 +10257,6 @@ Takes:  {
 				}
 			}
 		}
-		Model: "Model::bone04_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000003278255
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000003278255,L,
-							382960226750,0.020000008866191,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000000238418579
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000238418579,L,
-							382960226750,-0.000000245403498,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000000011175871
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000011175871,L,
-							382960226750,-0.000000047497451,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000002588001772
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000002588001772,L,
-							382960226750,0.000001920990908,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000003255012433
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000003255012433,L,
-							382960226750,-0.000002668043052,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000023692221940
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000023692221940,L,
-							382960226750,0.000023798943646,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 0.999999940395355
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999940395355,L,
-							382960226750,0.999999880790710,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.999999880790710
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999880790710,L,
-							382960226750,0.999999940395355,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.999999880790710
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999880790710,L,
-							382960226750,0.999999940395355,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
 		Model: "Model::bone14" {
 			Version: 1.1
 			Channel: "Transform" {
@@ -13490,99 +11238,6 @@ Takes:  {
 						Key: 
 							0,0.999999821186066,L,
 							382960226750,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
-		Model: "Model::bone17_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000025629997
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000025629997,L,
-							382960226750,0.019999984651804,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000000100582838
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000100582838,L,
-							382960226750,0.000000075437129,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000016763806
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000016763806,L,
-							382960226750,-0.000000018626451,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: -0.000003201651581
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000003201651581,L,
-							382960226750,-0.000002988208169,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000001280660673
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000001280660673,L,
-							382960226750,0.000001707547496,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000015367927261
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000015367927261,L,
-							382960226750,-0.000015794814084,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 0.999999940395355
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,0.999999940395355,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.999999940395355
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,0.999999940395355,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.999999880790710
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999880790710,L,
-							382960226750,0.999999940395355,L
 						Color: 0,0,1
 					}
 					LayerType: 3
@@ -14601,100 +12256,6 @@ Takes:  {
 				}
 			}
 		}
-		Model: "Model::bone12_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000036805868
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000036805868,L,
-							382960226750,0.020000018179417,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000061467290
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000061467290,L,
-							382960226750,0.000000104308128,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000022351742
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000022351742,L,
-							382960226750,0.000000037252903,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000000213443412
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000213443412,L,
-							382960226750,-0.000000426886874,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000002561320939
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000002561320939,L,
-							382960226750,-0.000003628538404,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000006616745758
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000006616745758,L,
-							382960226750,0.000007790685336,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999940395355,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999940395355,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
 		Model: "Model::bone24" {
 			Version: 1.1
 			Channel: "Transform" {
@@ -15688,101 +13249,6 @@ Takes:  {
 				}
 			}
 		}
-		Model: "Model::bone22_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.019999980926514
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.019999980926514,L,
-							382960226750,0.019999949261546,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000190222636
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000190222636,L,
-							382960226750,-0.000000064959750,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000000931323
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000000931323,L,
-							382960226750,0.000000012805685,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000006616745758
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000006616745758,L,
-							382960226750,0.000006083138044,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000002908166483
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000002908166483,L,
-							382960226750,-0.000003281692860,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000037726122994
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000037726122994,L,
-							382960226750,-0.000037939569662,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999940395355,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999940395355,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.999999940395355
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999940395355,L,
-							382960226750,0.999999880790710,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
 		Model: "Model::pin_lookat" {
 			Version: 1.1
 			Channel: "Transform" {
@@ -15870,98 +13336,6 @@ Takes:  {
 						Key: 
 							0,0.999999821186066,L,
 							382960226750,0.999999940395355,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
-		Model: "Model::pin_lookat_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.233371302485466
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,0.233371302485466,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000244006515
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000244006515,L,
-							382960226750,0.000000033527613,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000000037252903
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000037252903,L,
-							382960226750,-0.000000167638063,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: -0.000005762972112
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000005762972112,L,
-							382960226750,-0.000005549528701,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000004535672903
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000004535672903,L,
-							382960226750,-0.000004108786080,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000002614682199
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000002614682199,L,
-							382960226750,0.000002454599437,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 0.999999880790710
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999880790710,L,
-							382960226750,0.999999940395355,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
 						Color: 0,0,1
 					}
 					LayerType: 3
@@ -17084,99 +14458,6 @@ Takes:  {
 				}
 			}
 		}
-		Model: "Model::bip01_l_finger01_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.019999992102385
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.019999992102385,L,
-							382960226750,0.019999995827675,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000000034924597
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000034924597,L,
-							382960226750,-0.000000081956387,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000000010244548
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000010244548,L,
-							382960226750,-0.000000015832484,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: -0.000002454599233
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000002454599233,L,
-							382960226750,0.000000320165168,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000001173938662
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000001173938662,L,
-							382960226750,-0.000001067216956,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000002347877324
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000002347877324,L,
-							382960226750,-0.000002134433912,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000119209290
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000119209290,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999880790710,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
 		Model: "Model::bip01_l_finger1" {
 			Version: 1.1
 			Channel: "Transform" {
@@ -17357,99 +14638,6 @@ Takes:  {
 						KeyCount: 1
 						Key: 
 							0,0.999999940395355,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
-		Model: "Model::bip01_l_finger11_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000033080578
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000033080578,L,
-							382960226750,0.020000029355288,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000017695129
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000017695129,L,
-							382960226750,0.000000003259629,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000022351742
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000022351742,L,
-							382960226750,0.000000011175871,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000006616745758
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000006616745758,L,
-							382960226750,0.000005976416338,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000013820460899
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000013820460899,L,
-							382960226750,-0.000011312500813,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000005442806995
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000005442806995,L,
-							382960226750,0.000007150354287,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999940395355,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
 						Color: 0,0,1
 					}
 					LayerType: 3
@@ -17638,99 +14826,6 @@ Takes:  {
 						KeyCount: 1
 						Key: 
 							0,1.000000119209290,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
-		Model: "Model::bip01_l_finger21_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000003278255
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000003278255,L,
-							382960226750,0.019999966025352,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000033527613
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000033527613,L,
-							382960226750,0.000000108033419,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000000007450581
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000007450581,L,
-							382960226750,-0.000000014901161,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000002561320939
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000002561320939,L,
-							382960226750,0.000000853773646,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000010458725538
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000010458725538,L,
-							382960226750,-0.000013020048105,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000005336084475
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000005336084475,L,
-							382960226750,0.000004909198466,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000119209290
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000119209290,L,
-							382960226750,1.000000000000000,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
 						Color: 0,0,1
 					}
 					LayerType: 3
@@ -17926,99 +15021,6 @@ Takes:  {
 				}
 			}
 		}
-		Model: "Model::bip01_l_finger31_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000003278255
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000003278255,L,
-							382960226750,0.020000059157610,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000040978193
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,0.000000040978193,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000000027008355
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000027008355,L,
-							382960226750,0.000000009313226,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000026466983034
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000026466983034,L,
-							382960226750,0.000028174527069,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000014087265163
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000014087265163,L,
-							382960226750,0.000013233489888,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000013660378340
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000013660378340,L,
-							382960226750,-0.000014087263535,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,1.000000119209290,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,1.000000119209290,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
 		Model: "Model::bip01_l_finger4" {
 			Version: 1.1
 			Channel: "Transform" {
@@ -18189,98 +15191,6 @@ Takes:  {
 						Key: 
 							0,1.000000000000000,L,
 							382960226750,0.999999940395355,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
-		Model: "Model::bip01_l_finger41_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000061020255
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000061020255,L,
-							382960226750,0.020000055432320,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000000013969839
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000013969839,L,
-							382960226750,0.000000017695129,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000047730282
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000047730282,L,
-							382960226750,0.000000022817403,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000023905662095
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000023905662095,L,
-							382960226750,0.000024225827212,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000002134434319
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000002134434319,L,
-							382960226750,0.000002561321346,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000004282208852
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000004282208852,L,
-							382960226750,0.000007977448321,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 0.999999940395355
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,0.999999940395355,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
 						Color: 0,1,0
 					}
 					Channel: "Z" {
@@ -19465,100 +16375,6 @@ Takes:  {
 				}
 			}
 		}
-		Model: "Model::bip01_r_finger01_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.019999995827675
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.019999995827675,L,
-							382960226750,0.020000010728836,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000000000000,L,
-							382960226750,0.000000018626451,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000036321580
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000036321580,L,
-							382960226750,-0.000000003725290,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: -0.000006563385720
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000006563385720,L,
-							382960226750,-0.000005469488236,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000002734743711
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000002734743711,L,
-							382960226750,-0.000002694723071,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000009898438211
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000009898438211,L,
-							382960226750,0.000010031840343,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.999999880790710
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999880790710,L,
-							382960226750,0.999999940395355,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.999999880790710
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999880790710,L,
-							382960226750,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
 		Model: "Model::bip01_r_finger1" {
 			Version: 1.1
 			Channel: "Transform" {
@@ -19740,100 +16556,6 @@ Takes:  {
 						KeyCount: 2
 						Key: 
 							0,0.999999880790710,L,
-							382960226750,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
-		Model: "Model::bip01_r_finger11_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000070333481
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000070333481,L,
-							382960226750,0.020000025629997,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000062398612
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000062398612,L,
-							382960226750,-0.000000007450581,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000022351742
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000022351742,L,
-							382960226750,0.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: -0.000010672170578
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000010672170578,L,
-							382960226750,-0.000010885612361,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000018142689983
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000018142689983,L,
-							382960226750,-0.000022411558214,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000004482311643
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000004482311643,L,
-							382960226750,0.000005229363583,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,1.000000119209290,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.999999940395355
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.999999940395355,L,
 							382960226750,1.000000000000000,L
 						Color: 0,0,1
 					}
@@ -20130,100 +16852,6 @@ Takes:  {
 						Key: 
 							0,0.999999940395355,L,
 							382960226750,1.000000119209290,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
-		Model: "Model::bip01_r_finger21_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000014454126
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000014454126,L,
-							382960226750,0.020000025629997,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000014901161
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000014901161,L,
-							382960226750,-0.000000059604645,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000037252903
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000037252903,L,
-							382960226750,0.000000007450581,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: -0.000000853773646
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000853773646,L,
-							382960226750,0.000000853773646,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000024332548918
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000024332548918,L,
-							382960226750,-0.000025186319307,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000022198114803
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000022198114803,L,
-							382960226750,0.000024332545661,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,1.000000119209290,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000119209290
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000119209290,L,
-							382960226750,1.000000000000000,L
 						Color: 0,0,1
 					}
 					LayerType: 3
@@ -20640,99 +17268,6 @@ Takes:  {
 				}
 			}
 		}
-		Model: "Model::bip01_r_finger31_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000003278255
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000003278255,L,
-							382960226750,0.020000014454126,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000000014901161
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000014901161,L,
-							382960226750,0.000000044703484,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000081956387
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000081956387,L,
-							382960226750,0.000000067055225,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000002561320939
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000002561320939,L,
-							382960226750,0.000003415094585,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000001067217058
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000001067217058,L,
-							382960226750,0.000000640330235,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000025399765976
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000025399765976,L,
-							382960226750,-0.000026146817916,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999940395355,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
 		Model: "Model::bip01_r_finger4" {
 			Version: 1.1
 			Channel: "Transform" {
@@ -21142,100 +17677,6 @@ Takes:  {
 				}
 			}
 		}
-		Model: "Model::bip01_r_finger41_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.020000010728836
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.020000010728836,L,
-							382960226750,0.020000025629997,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000014901161
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000014901161,L,
-							382960226750,0.000000022351742,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000000026077032
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000026077032,L,
-							382960226750,-0.000000002793968,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000010565448872
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000010565448872,L,
-							382960226750,0.000009391510923,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000000640330235
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,-0.000000640330235,L,
-							382960226750,-0.000000213443437,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 0.000000533608529
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,0.000000533608529,L,
-							382960226750,-0.000001494104084,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999940395355,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 2
-						Key: 
-							0,1.000000000000000,L,
-							382960226750,0.999999940395355,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
 		Model: "Model::entityposition" {
 			Version: 1.1
 			Channel: "Transform" {
@@ -21289,92 +17730,6 @@ Takes:  {
 						KeyCount: 1
 						Key: 
 							0,-179.999991348319355,L
-						Color: 0,0,1
-					}
-					LayerType: 2
-				}
-				Channel: "S" {
-					Channel: "X" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: 1.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,1.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 3
-				}
-			}
-		}
-		Model: "Model::entityposition_end" {
-			Version: 1.1
-			Channel: "Transform" {
-				Channel: "T" {
-					Channel: "X" {
-						Default: 0.100000001490116
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,0.100000001490116,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: 0.000000007549789
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,0.000000007549789,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,-0.000000000000000,L
-						Color: 0,0,1
-					}
-					LayerType: 1
-				}
-				Channel: "R" {
-					Channel: "X" {
-						Default: 0.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,0.000000000000000,L
-						Color: 1,0,0
-					}
-					Channel: "Y" {
-						Default: -0.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,-0.000000000000000,L
-						Color: 0,1,0
-					}
-					Channel: "Z" {
-						Default: -0.000000000000000
-						KeyVer: 4005
-						KeyCount: 1
-						Key: 
-							0,-0.000000000000000,L
 						Color: 0,0,1
 					}
 					LayerType: 2
