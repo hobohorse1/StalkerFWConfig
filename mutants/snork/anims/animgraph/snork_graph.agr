@@ -1,13 +1,5 @@
 $AnimGraph 7 {
 	$Sheet "Main" {
-		$Node AnimNodeRot {
-			 "AlignToTerrain_XRot" "" "MasterSnork_SM" "SlopeAngleX  * 0.01745329251994329576923690768489"
-			$rotitems 0 {
-			}
-			$EditorData {
-				#EditorPos -14.9000006 7.0
-			}
-		}
 		$Node AnimNodeSource {
 			 "AnimAttackLeft" "" "leftattack" "noloop"
 			$Predictions {
@@ -25,11 +17,11 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimIdle" "" "idle" "loop"
+			 "AnimIdle" "" "idle" "noloop"
 			$Predictions {
 			}
 			$EditorData {
-				#EditorPos -28.3999996 -7.7000003
+				#EditorPos -26.8000011 -12.3000002
 			}
 		}
 		$Node AnimNodeSource {
@@ -73,27 +65,11 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeSource {
-			 "AnimRun" "" "run" "loop"
-			$Predictions {
-			}
-			$EditorData {
-				#EditorPos -29.8000011 -8.6000004
-			}
-		}
-		$Node AnimNodeSource {
 			 "AnimStandAttack" "" "standattack" "noloop"
 			$Predictions {
 			}
 			$EditorData {
 				#EditorPos -14.3000002 -7.8000002
-			}
-		}
-		$Node AnimNodeSource {
-			 "AnimWalk" "" "walk" "loop"
-			$Predictions {
-			}
-			$EditorData {
-				#EditorPos -32.2000008 -8.6000004
 			}
 		}
 		$Node AnimNodeStateMachine {
@@ -144,6 +120,64 @@ $AnimGraph 7 {
 			}
 			$EditorData {
 				#EditorPos -12.1000004 0.8
+			}
+		}
+		$Node AnimNodeSource {
+			 "Idle" "" "idle" "loop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -34.9000015 -13.3000002
+			}
+		}
+		$Node AnimNodeStateMachine {
+			 "IdleLoop" ""
+			$States 2 {
+				$State {
+					 "Idle" "" "AnimIdle" "" "realtime" 1
+					$EditorData {
+						#EditorPos -28.2000008 -10.6000004
+					}
+				}
+				$State {
+					 "Idle2" "" "AnimIdle" "" "realtime" 1
+					$EditorData {
+						#EditorPos -25.8000011 -10.6000004
+					}
+				}
+			}
+			$Transitions 2 {
+				$Transition {
+					 "Idle" "Idle2" "RemainingTimeLess(0.3)" "0.3" "" 1 "S"
+				}
+				$Transition {
+					 "Idle2" "Idle" "RemainingTimeLess(0.3)" "0.3" "" 1 "S"
+				}
+			}
+			$EditorData {
+				#EditorPos -28.6000004 -9.5
+			}
+		}
+		$Node AnimNodeStateMachine {
+			 "IdleMove" ""
+			$States 1 {
+				$State {
+					 "IdleRunBlend" "" "IdleRun" "" "realtime" 0
+					$EditorData {
+						#EditorPos -33.7000008 -10.6000004
+					}
+				}
+			}
+			$Transitions 0 {
+			}
+			$EditorData {
+				#EditorPos -35.2999992 -9.4000006
+			}
+		}
+		$Node AnimNodeBlendT {
+			 "IdleRun" "" "Idle" "Run" "" "" "MovementSpeed <= 2.1" 0.3 "S" 3
+			$EditorData {
+				#EditorPos -33.7000008 -12.4000006
 			}
 		}
 		$Node AnimNodeStateMachine {
@@ -199,7 +233,7 @@ $AnimGraph 7 {
 			$Transitions 0 {
 			}
 			$EditorData {
-				#EditorPos -14.9000006 5.0
+				#EditorPos -14.9000006 5.3000002
 			}
 		}
 		$Node AnimNodeStateMachine {
@@ -231,9 +265,17 @@ $AnimGraph 7 {
 			}
 		}
 		$Node AnimNodeBlend {
-			 "Move" "" "clamp(1-MovementSpeed, 0.0, 1.0)" "WalkRun" "AnimIdle" 3
+			 "Move" "" "clamp(1-MovementSpeed, 0.0, 1.0)" "IdleMove" "IdleLoop" 3
 			$EditorData {
-				#EditorPos -30.0 -6.4000001
+				#EditorPos -29.8999996 -7.4000001
+			}
+		}
+		$Node AnimNodeSource {
+			 "Run" "" "run" "loop"
+			$Predictions {
+			}
+			$EditorData {
+				#EditorPos -32.5 -13.3000002
 			}
 		}
 		$Node AnimNodeStateMachine {
@@ -268,12 +310,6 @@ $AnimGraph 7 {
 			}
 			$EditorData {
 				#EditorPos -21.8000011 -9.3000002
-			}
-		}
-		$Node AnimNodeBlendT {
-			 "WalkRun" "" "AnimWalk" "AnimRun" "" "" "MovementSpeed >= 2" 1.3 "S" 3
-			$EditorData {
-				#EditorPos -31.0 -7.7000003
 			}
 		}
 	}

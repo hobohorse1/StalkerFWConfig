@@ -361,7 +361,7 @@ class CfgVehicles
 			graphname="StalkerFWConfig\mutants\snork\anims\animgraph\snork.agr";
 			defaultinstance="StalkerFWConfig\mutants\snork\anims\animgraph\snork.asi";
 			skeletonName="snork.xob";
-			startnode="AlignToTerrain_XRot";
+			startnode="MasterSnork_SM";
 		};
 		class AnimEvents
 		{

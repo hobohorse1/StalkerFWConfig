@@ -493,13 +493,13 @@ class CfgVehicles
 			};
 		};
 	};
-	class SFW_Flesh2:SFW_Flesh_Base
+	class SFW_Flesh2: SFW_Flesh_Base
 	{
 		scope = 2;
 		hiddenSelectionsTextures[] = {"StalkerFWConfig\mutants\flesh\data\flesh2.paa"};
 		hiddenSelectionsMaterials[] = {"StalkerFWConfig\mutants\flesh\data\flesh.rvmat"};
 	};
-	class SFW_Flesh1:SFW_Flesh_Base
+	class SFW_Flesh1: SFW_Flesh_Base
 	{
 		scope = 2;
 		hiddenSelectionsTextures[] = {"StalkerFWConfig\mutants\flesh\data\flesh1.paa"};

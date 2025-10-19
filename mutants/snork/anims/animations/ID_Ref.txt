@@ -1,0 +1,4 @@
+SnorkAttack - Damage - 12000
+LeftAttack - SoundVoice - 12100
+RightAttack - soundVoice - 12200
+Idle - SoundVoice - 12300

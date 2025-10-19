@@ -43,44 +43,6 @@ class PathGraphFilters
 		};
 	};
 };
-class AIParams
-{
-	class AgentTeams
-	{
-		TeamList[]+=
-		{
-			"SFW_MutantSnork"
-		};
-		class Zombies
-		{
-			friends[]+=
-			{
-				"SFW_MutantSnork"
-			};
-		};
-		class Predator
-		{
-			friends[]+=
-			{
-				"SFW_MutantSnork"
-			};
-		};
-		class BigGame
-		{
-			friends[]+=
-			{
-				"SFW_MutantSnork"
-			};
-		};
-		class AmbientLife
-		{
-			friends[]+=
-			{
-				"SFW_MutantSnork"
-			};
-		};
-	};
-};
 class CfgDamages
 {
 	class SnorkAttackDamage
@@ -120,12 +82,12 @@ class CfgAIBehaviours
 	class SFW_MutantSnork: Infected
 	{
 		HeadLookBoneName="lookat";
-		teamName="SFW_MutantSnork";
+		//teamName="SFW_MutantSnork";
 		class BehaviourHLZombie
 		{
 			class MovementWalk
 			{
-				maxSpeed=1.5;
+				maxSpeed=1.0;
 				minSpeed=0;
 				acceleration=5;
 				maxAngleSpeed=180;
@@ -135,8 +97,8 @@ class CfgAIBehaviours
 			};
 			class MovementRun
 			{
-				maxSpeed=3;
-				minSpeed=0;
+				maxSpeed=2;
+				minSpeed=1.1;
 				acceleration=15;
 				maxAngleSpeed=120;
 				slowRadius=0;
@@ -147,8 +109,8 @@ class CfgAIBehaviours
 			};
 			class MovementSprint
 			{
-				maxSpeed=9;
-				minSpeed=0;
+				maxSpeed=2;
+				minSpeed=1.1;
 				acceleration=27;
 				maxAngleSpeed=180;
 				maxSpeedRange=9;

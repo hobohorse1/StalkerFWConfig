@@ -25,7 +25,6 @@ class CfgVehicles
 		model = "StalkerFWConfig\mutants\pseudodog\pseudodog.p3d";
 		displayName = "Pseudodog";
 		descriptionShort = "";
-		hiddenSelections[] = {"Camo","fur"};
 		DamageSphereAmmos[] = {"MeleeWolf"};
 		aiAgentTemplate = "Predators_Wolf";
 		injuryLevels[] = {1,0.5,0.2,0};

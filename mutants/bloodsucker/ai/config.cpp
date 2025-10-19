@@ -109,8 +109,6 @@ class CfgAIBehaviours
 	{
 		name="BloodSucker";
 		HeadLookBoneName="pin_lookat";
-		teamName="Zombies";
-		//defaultGroupTemplateName="DZWendigoGroupBeh";
 		class BehaviourHLZombie
 		{
 			class MovementWalk

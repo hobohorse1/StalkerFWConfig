@@ -6,13 +6,32 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"DZ_AI", "DZ_data_aiconfigs"};
+		requiredAddons[] = {"DZ_AI", "DZ_Animals", "DZ_data_aiconfigs"};
 	};
 };
 
 class CfgAIBehaviours
 {
-	class SFW_Predators_Flesh
+	class Predators_Wolf
+	{
+		class BehaviourHLPredator
+		{
+			class MovementWalk;
+			class MovementRun;
+			class MovementSprint;
+			class SlotCalm
+			{
+				class BehaviourCalm;
+			};
+			class SlotSiege
+			{
+				class BehaviourSiege;
+			};
+		};
+		class TargetSystemDZBase;
+		class NoiseSystemParams;
+	};
+	class SFW_Predators_Flesh: Predators_Wolf
 	{
 		HeadLookBoneName = "pin_lookat";
 		teamName = "Predator";

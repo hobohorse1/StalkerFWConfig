@@ -1,7 +1,7 @@
 MetaFileClass {
- Name "{9CF1D836F21452D1}StalkerFWConfig/mutants/snork/snork.xob"
- Author "abc-002607"
- ChangeDate 1180545828
+ Name "{52803DED93C9D3D1}BrigadaScript/br_mutants/Snork/snork.xob"
+ Author "desktop-q0qls49"
+ ChangeDate 256979074
  Configurations {
   FBXResourceClass PC {
    SourceFile "snork.fbx"
@@ -9,7 +9,7 @@ MetaFileClass {
    MaterialAssigns {
     MaterialAssignClass {
      SourceMaterial "act/act_gasmask"
-     AssignedMaterial "{1C4E549E4D2D44B7}StalkerFWConfig/mutants/snork/act_act_gasmask.emat"
+     AssignedMaterial "{284476F2C73F3BE1}BrigadaScript/br_mutants/Snork/act_act_gasmask.emat"
     }
    }
    GeometryParams {

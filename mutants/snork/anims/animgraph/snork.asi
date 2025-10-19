@@ -1,16 +1,15 @@
 $animsetinstance {
- #template "StalkerFWConfig/mutants/snork/anims/animgraph/snork.ast"
+ #template "{0F4D3A26DDE89DD5}StalkerFWConfig/mutants/snork/anims/animgraph/snork.ast"
  #nparents 0
  $animations {
-   "death" "StalkerFWConfig/mutants/snork/anims/animations/death.anm"
-   "idle" "StalkerFWConfig/mutants/snork/anims/animations/idle.anm"
-   "leftattack" "StalkerFWConfig/mutants/snork/anims/animations/leftattack.anm"
-   "rightattack" "StalkerFWConfig/mutants/snork/anims/animations/rightattack.anm"
-   "run" "StalkerFWConfig/mutants/snork/anims/animations/run.anm"
-   "standattack" "StalkerFWConfig/mutants/snork/anims/animations/standattack.anm"
-   "turnl180" "StalkerFWConfig/mutants/snork/anims/animations/turnl180.anm"
-   "turnl90" "StalkerFWConfig/mutants/snork/anims/animations/turnl90.anm"
-   "turnr180" "StalkerFWConfig/mutants/snork/anims/animations/turnr180.anm"
-   "turnr90" "StalkerFWConfig/mutants/snork/anims/animations/turnr90.anm"
-   "walk" "StalkerFWConfig/mutants/snork/anims/animations/walk.anm"
+   "death" "{3582018CC180985D}StalkerFWConfig/mutants/snork/anims/animations/death.anm"
+   "idle" "{3E756CEB6795EEC9}StalkerFWConfig/mutants/snork/anims/animations/idle.anm"
+   "leftattack" "{7DDD829B3B4450C7}StalkerFWConfig/mutants/snork/anims/animations/leftattack.anm"
+   "rightattack" "{80B8CF3E5BD92940}StalkerFWConfig/mutants/snork/anims/animations/rightattack.anm"
+   "run" "{6C229D76B1F3FEC0}StalkerFWConfig/mutants/snork/anims/animations/run.anm"
+   "standattack" "{46254F6F8B3722AC}StalkerFWConfig/mutants/snork/anims/animations/standattack.anm"
+   "turnl180" "{1E13BD1B5C3FA509}StalkerFWConfig/mutants/snork/anims/animations/turnl180.anm"
+   "turnl90" "{D460445FD09764D8}StalkerFWConfig/mutants/snork/anims/animations/turnl90.anm"
+   "turnr180" "{A43449D21028B226}StalkerFWConfig/mutants/snork/anims/animations/turnr180.anm"
+   "turnr90" "{940066A90C311FEE}StalkerFWConfig/mutants/snork/anims/animations/turnr90.anm"
  }

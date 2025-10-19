@@ -216,7 +216,7 @@ class CfgVehicles
 			meshObject="StalkerFWConfig\mutants\bloodsucker\bloodsucker.xob";
 			graphname="StalkerFWConfig\mutants\bloodsucker\anims\animgraph\bloodsucker.agr";
 			defaultinstance="StalkerFWConfig\mutants\bloodsucker\anims\animgraph\bloodsucker.asi";
-			startnode="AlignToTerrain_XRot";
+			startnode="Masterbloodsucker_SM";
 			skeletonName="bloodsucker.xob";
 		};
 		class AnimEvents

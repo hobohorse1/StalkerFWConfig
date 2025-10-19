@@ -2,7 +2,7 @@ $animsettemplate {
  #ngrouptypes 1
  $groupType {
   #ngroupnames 0
-  #nanims 11
+  #nanims 10
   $anims {
     "death"
     "idle"
@@ -14,7 +14,6 @@ $animsettemplate {
     "turnl90"
     "turnr180"
     "turnr90"
-    "walk"
    
   }
  }

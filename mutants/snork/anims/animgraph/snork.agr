@@ -1,5 +1,6 @@
 $AnimGraph 7 {
-	#AnimSetTemplate "StalkerFWConfig/mutants/snork/anims/animgraph/snork.ast"
+	#AnimSetTemplate "{0F4D3A26DDE89DD5}StalkerFWConfig/mutants/snork/anims/animgraph/snork.ast"
+	#AnimSyncTable "{96E8710266C59E27}StalkerFWConfig/mutants/snork/anims/animgraph/snork.asy"
 	$Controls {
 		$Commands {
 			 CMD_HIT_LIGHT -1
@@ -12,7 +13,7 @@ $AnimGraph 7 {
 			 CMD_NODEATH -1
 		}
 		$Vars {
-			#Var MovementSpeed float 0.0 0.0 3.0 ""
+			#Var MovementSpeed float 0.0 0.0 2.0 ""
 			#Var MovementDirection float 0.0 -180.0 180.0 ""
 			#Var LookDirY float 0.0 -90.0 90.0 ""
 			#Var LookDirX float 0.0 -180.0 180.0 ""
