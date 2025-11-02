@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{678301AD3D996C2C}StalkerFWConfig/mutants/snork/anims/animations/jump1.anm"
+ Author "abc-002607"
+ ChangeDate 1054716770
+ Configurations {
+  FBXAnimResourceClass PC {
+   SourceFile "jump1.fbx"
+  }
+  FBXAnimResourceClass XBOX_ONE : PC {
+  }
+  FBXAnimResourceClass PS4 : PC {
+  }
+  FBXAnimResourceClass LINUX : PC {
+  }
+ }
+}
