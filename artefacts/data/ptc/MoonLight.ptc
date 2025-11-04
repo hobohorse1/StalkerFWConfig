@@ -1,0 +1,176 @@
+EffectDef {
+ Emitors {
+  EmitorDef light {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 360 360
+   MaxNum 10
+   BirthRate 2
+   BirthRateRND 2
+   BirthRateVel 1
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{009C2EBAACD2D72A}graphics/particles/materials/fire/sparks1.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.1
+   SizeRND 0.34
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0.1
+   VelocityRND 0.15
+   VelAffect 0
+   AirResistance 0
+   AirResistanceRND 10
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 10
+   LifetimeByAnim 0
+   LifeTime 5
+   LifeTimeRND 2
+   Color {
+    0 0 0.6408 0.9085 1 0.2183 0.4718 0.9718
+   }
+   Alpha {
+    0 0 0.08703 0.0493 0.14241 0.17606 0.21123 0.38732 0.26661 0.02817 0.60206 0.48592 0.64478 0.12676 0.71598 0.07042 0.79035 0.47183 0.87816 0.09155 1 0
+   }
+   EffectTime 10
+   Repeat 1
+   AlphaMast {
+    0 0.38028 0.22785 0.20423 0.50079 0.70423 0.84256 0.24648 1 0.40141
+   }
+  }
+  EmitorDef Sphire {
+   ConeAngle 360 360 360
+   MaxNum 15
+   BirthRate 2
+   BirthRateRND 0
+   BirthRateVel 1
+   LocalTransform 0
+   Material "{26E01280C1686A5C}StalkerFWConfig/artefacts/data/emat/BlueSphire.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.3
+   SizeRND 0
+   RandomRotDir 1
+   RotMultiplier 20
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 0
+   LifetimeByAnim 0
+   LifeTime 7
+   LifeTimeRND 0
+   Color {
+    0 0.1127 0.5634 0.9085 1 0.3169 0.9085 0.9155
+   }
+   Alpha {
+    0 0 0.22547 0.08451 0.33703 0.10563 0.40427 0.16197 0.49684 0.05634 0.5894 0.11268 0.67722 0.11268 0.79826 0.03521 1 0
+   }
+   Size {
+    0 0.35915 1 1
+   }
+   EffectTime 5
+   Repeat 1
+   AlphaMast {
+    0 1 1 0.84507
+   }
+   SizeMast {
+    0 1 1 0.16901
+   }
+  }
+  EmitorDef smoke_cloned {
+   ConeAngle 360 360 360
+   MaxNum 10
+   BirthRate 4
+   BirthRateRND 2
+   BirthRateVel 5
+   LocalTransform 0
+   Material "{55020E0786F83004}graphics/Particles/materials/smoke/smoke_anim_01.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.1
+   SizeRND 0.15
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 5
+   LifetimeByAnim 0
+   LifeTime 5
+   LifeTimeRND 6
+   Color {
+    0 0 0.8028 1 1 0.3169 0.831 0.6901
+   }
+   Alpha {
+    0 0.20423 0.06408 0.0493 0.11788 0.09859 0.18434 0.09155 0.24367 0.09859 0.27294 0.05634 0.32911 0.08451 0.39873 0.05634 0.43987 0.02113 0.49604 0.02817 0.51503 0.07042 0.53006 0.00704 0.5807 0.05634 0.59652 0.09859 0.60997 0.03521 1 0
+   }
+   Repeat 1
+   AlphaMast {
+    0 1 1 0.99296
+   }
+  }
+  EmitorDef Rays {
+   ConeAngle 0 0 0
+   MaxNum 10
+   BirthRate 2
+   Material "{5C348027715E73D0}StalkerFWConfig/artefacts/data/emat/RingRedImp.emat"
+   SizeMultiplier 0.2
+   SizeRND 0.05
+   RandomRotDir 1
+   RotMultiplier 20
+   StretchMultiplier 1
+   Velocity 15
+   Spring 1
+   AnimFPS 5
+   LifeTime 5
+   LifeTimeRND 6
+   Color {
+    0 0 0.7676 1 0.5 0.7958 0.7746 0.7746 1 0 0.7324 1
+   }
+   Alpha {
+    0 0 0.50158 0.04225 1 0
+   }
+   SizeMast {
+    0 1 1 0.60563
+   }
+  }
+ }
+}

@@ -1,0 +1,11 @@
+Particle {
+ AlbedoMap "{E52AA0CC167621AA}StalkerFWConfig/artefacts/data/edds/BlakHole.edds" 
+ Emissive 0.5608 0.4392 0.0706 1
+ CastShadow 1
+ NormalMap "{AA1D4FDE8D64210B}StalkerFWConfig/artefacts/data/edds/BlackHoleNorm.edds"  anim( 0 ) 
+ BlendMode Additive_AlphaModulate
+ TileU 5
+ TileV 4
+ Softness 1
+ CameraBlendFar 0.001
+}

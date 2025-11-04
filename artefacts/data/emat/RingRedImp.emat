@@ -1,0 +1,10 @@
+Particle {
+ AlbedoMap "{22948414BF94748E}StalkerFWConfig/artefacts/data/edds/ImpBloodSphire.edds" 
+ Emissive 0.6863 0.1451 0.1451 1
+ CastShadow 1
+ BlendMode Additive_AlphaModulate
+ TileU 5
+ TileV 7
+ Softness 1
+ CameraBlendFar 0.001
+}

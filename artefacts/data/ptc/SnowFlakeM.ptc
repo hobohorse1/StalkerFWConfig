@@ -1,0 +1,214 @@
+EffectDef {
+ Emitors {
+  EmitorDef Obloko {
+   ConeAngle 360 360 360
+   MaxNum 40
+   BirthRate 10
+   BirthRateRND 10
+   BirthRateVel 10
+   LocalTransform 0
+   Material "{009C2EBAACD2D72A}graphics/Particles/materials/fire/sparks1.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.01
+   SizeRND 0.3
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0.003
+   VelocityRND 0
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 5
+   LifetimeByAnim 0
+   LifeTime 5
+   LifeTimeRND 5
+   Color {
+    0 0 0 0.9085 1 0.2183 0.4718 0.9718
+   }
+   Alpha {
+    0 0.37324 0.06646 0.10563 0.11551 0.35211 0.18434 0.09155 0.24684 0.19014 0.27294 0.05634 0.32595 0.14789 0.39873 0.05634 0.43987 0.14085 0.49604 0.02817 0.51582 0.22535 0.52848 0.0493 0.5807 0.05634 0.59652 0.11972 0.60997 0.03521 1 0
+   }
+   Repeat 1
+  }
+  EmitorDef smoke {
+   ConeAngle 360 360 360
+   MaxNum 40
+   BirthRate 10
+   BirthRateRND 10
+   BirthRateVel 10
+   LocalTransform 0
+   Material "{11EBCEBA0C8CB04C}graphics/Particles/materials/smoke/smoke_cloud_01_b_trans_M18_04.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.05
+   SizeRND 0.03
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0.04
+   VelocityRND 0.03
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 5
+   LifetimeByAnim 0
+   LifeTime 5
+   LifeTimeRND 5
+   Color {
+    0 0 0 0.9085 1 0.3169 0.9085 0.9155
+   }
+   Alpha {
+    0 0.20423 0.06408 0.0493 0.11788 0.09859 0.18434 0.09155 0.24367 0.09859 0.27294 0.05634 0.32911 0.08451 0.39873 0.05634 0.43987 0.02113 0.49604 0.02817 0.51503 0.07042 0.53006 0.00704 0.5807 0.05634 0.59652 0.09859 0.60997 0.03521 1 0
+   }
+   Repeat 1
+   AlphaMast {
+    0 0.69718 1 0.71127
+   }
+  }
+  EmitorDef smoke_cloned {
+   ConeAngle 360 360 360
+   MaxNum 100
+   BirthRate 30
+   BirthRateRND 20
+   BirthRateVel 5
+   LocalTransform 0
+   Material "{55020E0786F83004}graphics/Particles/materials/smoke/smoke_anim_01.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.05
+   SizeRND 0.03
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0.04
+   VelocityRND 0.03
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 5
+   LifetimeByAnim 0
+   LifeTime 5
+   LifeTimeRND 3
+   Color {
+    0 0 0 0.9085 1 0.3169 0.9085 0.9155
+   }
+   Alpha {
+    0 0.20423 0.06408 0.0493 0.11788 0.09859 0.18434 0.09155 0.24367 0.09859 0.27294 0.05634 0.32911 0.08451 0.39873 0.05634 0.43987 0.02113 0.49604 0.02817 0.51503 0.07042 0.53006 0.00704 0.5807 0.05634 0.59652 0.09859 0.60997 0.03521 1 0
+   }
+   Repeat 1
+   AlphaMast {
+    0 0.69718 1 0.71127
+   }
+  }
+  EmitorDef Spark {
+   ConeAngle 360 360 0
+   MaxNum 30
+   BirthRate 30
+   BirthRateRND 15
+   BirthRateVel 5
+   LocalTransform 0
+   Material "{009C2EBAACD2D72A}graphics/Particles/materials/fire/sparks1.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.015
+   SizeRND 0.05
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 1.01
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0.5
+   VelocityRND 0.5
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 10
+   GravityMultiply 0
+   GravityMultiplyRND 0.01
+   Restitution 0
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 10
+   LifetimeByAnim 0
+   LifeTime 1
+   LifeTimeRND 0.1
+   Color {
+    0 0 0.5352 0.7887 1 0 0.831 0.6408
+   }
+   Alpha {
+    0 1 0.05696 0.45775 0.10443 0.80282 0.14873 0.09155 0.16772 0.90141 0.18117 0.02817 0.19462 0.80986 0.20965 0.04225 0.2231 0.88028 0.23418 0.02817 0.24921 0.93662 0.26266 0.05634 0.37025 0.45775 0.42247 0.11972 0.61234 0.03521 1 0
+   }
+   Repeat 1
+   RotationSpeedMast {
+    0 1 1 0.48592
+   }
+  }
+  EmitorDef Test {
+   ConeAngle 360 360 0
+   MaxNum 10
+   BirthRate 5
+   BirthRateRND 5
+   Material "{D6DB5F2C133A177A}StalkerFWConfig/artefacts/data/emat/EnergyElectr01.emat"
+   ScaleX 0.5
+   ScaleY 0.5
+   SizeMultiplier 0.035
+   SizeRND 0.03
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Velocity 0.8
+   VelocityRND 0.8
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 50
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   AnimFPS 20
+   LifeTime 0.4
+   LifeTimeRND 0.4
+   EffectTime 0.4
+   Repeat 1
+   AlphaMast {
+    0 0.77465 0.29193 0.01408 0.3481 0.78169 0.39873 0.02113 0.42009 1 0.47706 0.03521 0.52769 0.84507 0.59415 0 0.65111 0.8662 0.70649 0.35211 0.79668 0.11268 1 0
+   }
+  }
+ }
+}

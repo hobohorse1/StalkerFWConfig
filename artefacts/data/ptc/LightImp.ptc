@@ -1,0 +1,149 @@
+EffectDef {
+ Emitors {
+  EmitorDef light {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 360 360
+   MaxNum 20
+   BirthRate 20
+   BirthRateRND 0
+   BirthRateVel 0
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{009C2EBAACD2D72A}graphics/particles/materials/fire/sparks1.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.05
+   SizeRND 0.3
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0.08
+   VelocityRND 0.15
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 0
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 10
+   LifetimeByAnim 0
+   LifeTime 1
+   LifeTimeRND 0
+   Color {
+    0 0.6901 0.6549 0.2746 1 0.9718 0.9085 0.3028
+   }
+   Alpha {
+    0 0 0.26661 0.02817 0.50791 0.0493 0.63608 0.02113 0.71994 0.04225 0.79589 0.03521 0.88291 0.03521 1 0
+   }
+   EffectTime 10
+   Repeat 1
+   AlphaMast {
+    0 0.38028 0.22785 0.20423 0.50079 0.70423 0.84256 0.24648 1 0.40141
+   }
+   SizeMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef Light1 {
+   ConeAngle 360 360 0
+   MaxNum 5
+   BirthRate 5
+   BirthRateRND 2
+   BirthRateVel 5
+   LocalTransform 0
+   Material "{EA2686148E09D4DD}graphics/particles/materials/enviroment/ring_01.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.1
+   SizeRND 0.3
+   RandomRotDir 1
+   RotMultiplier 45
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 20
+   LifetimeByAnim 0
+   LifeTime 0.2
+   LifeTimeRND 0
+   Color {
+    0 1 0.6056 0 1 0.1831 0.669 0.5211
+   }
+   Alpha {
+    0 0 0.49367 0.08451 1 0
+   }
+   RotationSpeed {
+    0 0 0.23259 0.16197 0.46915 0.14789 0.81013 0.26761 1 0.11268
+   }
+   Size {
+    0 0.35915 1 1
+   }
+   Repeat 1
+   AlphaMast {
+    0 1 1 0.99296
+   }
+  }
+  EmitorDef ring {
+   ConeAngle 0 0 0
+   MaxNum 10
+   BirthRate 1
+   BirthRateRND 0
+   Material "{67EF2DFD9FAFCDC5}StalkerFWConfig/artefacts/data/emat/ImpFlash.emat"
+   SizeMultiplier 0.3
+   SizeRND 0.1
+   RandomRotDir 1
+   RotMultiplier 10
+   StretchMultiplier 0
+   RandomAngle 1
+   Velocity 0
+   VelocityRND 0
+   AirResistance 1
+   AirResistanceRND 1
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 40
+   LifeTime 3
+   Color {
+    0 1 1 0.6761 1 1 1 0.6408
+   }
+   Alpha {
+    0 0 0.50316 0.0493 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 1 1 1
+   }
+   EffectTime 1
+   ColorMast {
+    0 1 1 0.7887 1 1 1 0.6549
+   }
+   SizeMast {
+    0 1 0.49921 0.40141 1 1
+   }
+  }
+ }
+}

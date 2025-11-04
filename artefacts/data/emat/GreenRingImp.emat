@@ -1,0 +1,10 @@
+Particle {
+ AlbedoMap "{11900EC4145DE227}StalkerFWConfig/artefacts/data/edds/GreenRing.edds" 
+ Emissive 0.3882 0.6235 0.1569 1
+ CastShadow 1
+ BlendMode Additive_AlphaModulate
+ TileU 5
+ TileV 4
+ Softness 1
+ CameraBlendFar 0.001
+}

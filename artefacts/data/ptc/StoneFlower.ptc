@@ -1,0 +1,81 @@
+EffectDef {
+ Emitors {
+  EmitorDef smoke {
+   MaxNum 10
+   BirthRate 10
+   Material "{CF8A36CE7D239262}graphics/particles/materials/smoke/steam_random_m7a2_01.emat"
+   SizeMultiplier 0.02
+   SizeRND 0
+   RandomRotDir 1
+   RotMultiplier 60
+   Velocity 0
+   Spring 1
+   AnimFPS 5
+   LifeTime 2
+   Alpha {
+    0 0 0.49763 0.02817 1 0
+   }
+   EffectTime 1
+  }
+  EmitorDef ring {
+   ConeAngle 0 0 0
+   MaxNum 5
+   BirthRate 2
+   BirthRateRND 0
+   Material "{EE75AA4660A37AD8}StalkerFWConfig/artefacts/data/emat/BlakHoleImp.emat"
+   SizeMultiplier 0.5
+   SizeRND 0.1
+   RandomRotDir 1
+   RotMultiplier 20
+   StretchMultiplier 0
+   RandomAngle 1
+   Velocity 0
+   VelocityRND 0
+   AirResistance 0
+   AirResistanceRND 0
+   Spring 0.1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifeTime 5
+   Color {
+    0 1 0 1 0.5055 0.5986 0 1 1 0 1 1
+   }
+   Alpha {
+    0 0 0.49367 0.06338 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0.12676 1 1
+   }
+   EffectTime 1
+   ColorMast {
+    0 1 0 1 0.5071 0.2183 0.9437 0.9789 1 0 1 1
+   }
+   AlphaMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef Spark {
+   ConeAngle 360 360 0
+   BirthRate 2
+   Material "{A4BE56BFF07DB813}StalkerFWConfig/artefacts/data/emat/ImpSpark.emat"
+   SizeMultiplier 0.01
+   SizeRND 0.04
+   Velocity 0.6
+   Spring 0.1
+   AnimFPS 10
+   Color {
+    0 0 1 1 1 0.9648 0 1
+   }
+   Alpha {
+    0 0 0.2413 0 0.28718 0.48592 0.32358 0.09155 0.35522 0.52113 0.37104 0.04225 0.4106 0.70423 0.43038 0.05634 0.4731 0.61972 0.52373 0.12676 1 0
+   }
+   ColorMast {
+    0 0 0.7958 1 1 1 0 1
+   }
+  }
+ }
+}

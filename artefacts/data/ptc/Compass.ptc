@@ -1,0 +1,208 @@
+EffectDef {
+ Emitors {
+  EmitorDef light {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 360 360
+   MaxNum 10
+   BirthRate 2
+   BirthRateRND 2
+   BirthRateVel 1
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{009C2EBAACD2D72A}graphics/Particles/materials/fire/sparks1.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.1
+   SizeRND 0.34
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0.08
+   VelocityRND 0.15
+   VelAffect 0
+   AirResistance 0
+   AirResistanceRND 10
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 10
+   LifetimeByAnim 0
+   LifeTime 5
+   LifeTimeRND 2
+   Color {
+    0 0.8028 0.6408 0 1 1 0.1268 0
+   }
+   Alpha {
+    0 0 0.08703 0.0493 0.14241 0.17606 0.21123 0.38732 0.26661 0.02817 0.60206 0.48592 0.64478 0.12676 0.71598 0.07042 0.79035 0.47183 0.87816 0.09155 1 0
+   }
+   EffectTime 10
+   Repeat 1
+   AlphaMast {
+    0 0.38028 0.22785 0.20423 0.50079 0.70423 0.84256 0.24648 1 0.40141
+   }
+   SizeMast {
+    0 1 0.27057 0.35211 0.47785 0.41549 0.76108 1 1 0.78169
+   }
+  }
+  EmitorDef lightSpark {
+   ShapeType Point
+   ShapeSize 2 2 2
+   ConeAngle 360 360 0
+   MaxNum 50
+   BirthRate 5
+   BirthRateRND 3
+   BirthRateVel 1
+   LocalTransform 0
+   Material "{009C2EBAACD2D72A}graphics/Particles/materials/fire/sparks1.emat"
+   SizeMultiplier 0.015
+   SizeRND 0.02
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 1
+   RandomAngle 1
+   Sort 0
+   Velocity 0.15
+   VelocityRND 0.01
+   VelAffect 1
+   AirResistance 0
+   AirResistanceRND 1
+   GravityMultiply 0
+   Spring 0.02
+   Wind 0
+   AnimOnce 0
+   AnimFPS 10
+   LifeTime 4
+   LifeTimeRND 0
+   Color {
+    0 1 0.7394 0.3803 1 0.669 0.2958 0.2958
+   }
+   Alpha {
+    0 0 0.39873 1 0.5894 0.55634 0.77294 0.23239 1 0.09859
+   }
+   RotationSpeed {
+    0 1 0.47389 0.38028 1 0.37324
+   }
+   RotationSpeedMast {
+    0 0.21127 0.40427 1 1 1
+   }
+   SizeMast {
+    0 0.48592 0.42405 0.80282 1 0.27465
+   }
+   BRateMast {
+    0 0.90141 0.31171 0.34507 0.5807 0.99296 1 0.21831
+   }
+   AirResistanceMast {
+    0 1 1 1
+   }
+   VelocityMast {
+    0 1 1 1
+   }
+  }
+  EmitorDef Sphire {
+   ConeAngle 360 360 360
+   MaxNum 15
+   BirthRate 2
+   BirthRateRND 0
+   BirthRateVel 1
+   LocalTransform 0
+   Material "{26E01280C1686A5C}StalkerFWConfig/artefacts/data/emat/BlueSphire.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.26
+   SizeRND 0
+   RandomRotDir 1
+   RotMultiplier 0
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 5
+   LifetimeByAnim 0
+   LifeTime 7
+   LifeTimeRND 0
+   Color {
+    0 1 0.0915 0 1 0.6479 0.2606 0.1338
+   }
+   Alpha {
+    0 0 0.16535 0.09859 0.30063 0.38732 0.39794 0.56338 0.49684 0.05634 0.59652 0.59155 0.73418 0.23944 0.85285 0.07042 1 0
+   }
+   Size {
+    0 1 1 0.06338
+   }
+   EffectTime 5
+   Repeat 1
+   AlphaMast {
+    0 1 1 0.84507
+   }
+   SizeMast {
+    0 0.54225 1 1
+   }
+  }
+  EmitorDef smoke_cloned {
+   ConeAngle 360 360 360
+   MaxNum 10
+   BirthRate 4
+   BirthRateRND 2
+   BirthRateVel 5
+   LocalTransform 0
+   Material "{55020E0786F83004}graphics/Particles/materials/smoke/smoke_anim_01.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 0.1
+   SizeRND 0.15
+   RandomRotDir 1
+   RotMultiplier 5
+   StretchMultiplier 0
+   StreakFullUV 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 0
+   VelocityRND 0
+   VelAffect 1
+   AirResistance 1
+   AirResistanceRND 1
+   GravityMultiply 0
+   GravityMultiplyRND 0
+   Spring 1
+   Wind 0
+   AnimOnce 0
+   AnimFPS 5
+   LifetimeByAnim 0
+   LifeTime 5
+   LifeTimeRND 6
+   Color {
+    0 0.6479 0.3732 0 1 0.2465 0.831 0.3662
+   }
+   Alpha {
+    0 0.20423 0.06408 0.0493 0.11788 0.09859 0.18434 0.09155 0.24367 0.09859 0.27294 0.05634 0.32911 0.08451 0.39873 0.05634 0.43987 0.02113 0.49604 0.02817 0.51503 0.07042 0.53006 0.00704 0.5807 0.05634 0.59652 0.09859 0.60997 0.03521 1 0
+   }
+   Repeat 1
+   AlphaMast {
+    0 1 1 0.99296
+   }
+  }
+ }
+}

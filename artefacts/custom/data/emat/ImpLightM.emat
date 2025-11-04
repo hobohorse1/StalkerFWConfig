@@ -1,9 +1,0 @@
-Particle {
- AlbedoMap "{6F132FE31F3AEFCA}StalkerFWConfig/artefacts/custom/data/edds/BlueImpRing.edds" 
- Emissive 0.2588 0.6863 0.6863 1
- CastShadow 1
- TileU 5
- TileV 7
- Softness 1
- CameraBlendFar 0.001
-}
