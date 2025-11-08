@@ -22,7 +22,7 @@ class CfgVehicles
 		itemSize[] = {2,2};
 		weight = 1000;	
 	};
-	class SFW_Orange_AI2: SFW_AI2_Base
+	class SFW_Medical_Orange_AI2: SFW_AI2_Base
 	{
 		scope = 2;
 		displayName = "AI2 medkit";
@@ -37,7 +37,7 @@ class CfgVehicles
 			"StalkerFWConfig\medical\ai2\data\AI2_Orange.paa"
 		};		
 	};
-	class SFW_Blue_AI2: SFW_AI2_Base
+	class SFW_Medical_Blue_AI2: SFW_AI2_Base
 	{
 		scope = 2;
 		displayName = "AI2 Army medkit";
@@ -52,7 +52,7 @@ class CfgVehicles
 			"StalkerFWConfig\medical\ai2\data\AI2_Blue.paa"
 		};		
 	};
-	class SFW_Yellow_AI2: SFW_AI2_Base
+	class SFW_Medical_Yellow_AI2: SFW_AI2_Base
 	{
 		scope = 2;
 		displayName = "AI2 Scientific medkit";

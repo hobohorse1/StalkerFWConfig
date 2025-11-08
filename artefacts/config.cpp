@@ -103,7 +103,7 @@ class CfgVehicles
 		descriptionShort="A decoy artefact valued for training stalkers to handle unstable anomalies.";
 		model="StalkerFWConfig/artefacts/model/Dummy/Dummy.p3d"; 
 		rotationFlags=0; 
-		hiddenSelections[] = {"zbytek","emis";
+		hiddenSelections[] = {"zbytek","emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\dummy\data\artdummy_defaultmaterial_basecolor.paa","stalkerfwconfig\artefacts\model\dummy\data\artdummy_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\dummy\data\artdummy.rvmat","stalkerfwconfig\artefacts\model\dummy\data\artdummy_emis.rvmat"}; 
 	};
@@ -151,7 +151,7 @@ class CfgVehicles
 		descriptionShort="A radiant core that discharges sudden bursts of blinding light.";
 		model="StalkerFWConfig/artefacts/model/Flash/Flash.p3d"; 
 		rotationFlags=0; 
-		hiddenSelections[] = {"zbytek","emis";
+		hiddenSelections[] = {"zbytek","emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\flash\data\flash_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\flash\data\flash.rvmat","stalkerfwconfig\artefacts\model\flash\data\flash_emis.rvmat"}; 
 	};
@@ -345,7 +345,7 @@ class CfgVehicles
 		rotationFlags=0;
 		hiddenSelections[] = {"noemis","igl"};
 		hiddenSelectionsTextures[] = {"StalkerFWConfig\artefacts\model\ShineOfTheForest\data\ShineOfTheForest_Emis.rvmat","StalkerFWConfig\artefacts\model\ShineOfTheForest\data\ShineOfTheForest_Emis.rvmat"};
-		hiddenSelectionsMaterials[] = {"ds_artifacts\model\artifacts\shineoftheforest\date\shineoftheforest.rvmat","ds_artifacts\model\artifacts\shineoftheforest\date\shineoftheforest_emis.rvmat"};
+		hiddenSelectionsMaterials[] = {"StalkerFWConfig\artefacts\model\ShineOfTheForest\data\shineoftheforest.rvmat","StalkerFWConfig\artefacts\model\ShineOfTheForest\data\shineoftheforest_emis.rvmat"};
 	};
 
 	class SFW_Item_Artefact_SnowFlake: SFW_Item_Artefact_Base
@@ -665,294 +665,294 @@ class CfgSoundShaders
 
 class CfgSoundSets
 {
-	class SFW_Artifact_Battery_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Battery_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Battery_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Battery_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Bubble_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Bubble_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Bubble_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Bubble_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Compass_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Compass_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Compass_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Compass_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Crystal_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Crystal_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Crystal_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Crystal_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Dummy_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Dummy_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Dummy_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Dummy_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Eye_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Eye_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Eye_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Eye_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_FireBall_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_FireBall_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_FireBall_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_FireBall_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Flame_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Flame_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Flame_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Flame_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Flash_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Flash_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Flash_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Flash_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_GoldFish_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_GoldFish_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_GoldFish_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_GoldFish_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Gravy_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Gravy_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Gravy_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Gravy_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Jellyfish_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Jellyfish_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Jellyfish_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Jellyfish_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Kolobok_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Kolobok_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Kolobok_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Kolobok_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Light_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Light_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Light_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Light_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_MamasBeads_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_MamasBeads_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_MamasBeads_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_MamasBeads_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_MeatChunk_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_MeatChunk_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_MeatChunk_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_MeatChunk_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Monolith_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Monolith_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Monolith_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Monolith_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_MoonLight_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_MoonLight_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_MoonLight_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_MoonLight_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_NanoCell_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_NanoCell_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_NanoCell_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_NanoCell_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_NightStar_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_NightStar_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_NightStar_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_NightStar_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Oasis_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Oasis_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Oasis_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Oasis_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_SnowFlake_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_SnowFlake_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_SnowFlake_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_SnowFlake_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Soul_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Soul_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Soul_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Soul_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Sparkler_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Sparkler_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Sparkler_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Sparkler_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Spring_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Spring_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Spring_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Spring_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_SteeringWheel_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_SteeringWheel_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_SteeringWheel_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_SteeringWheel_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_StoneBlood_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_StoneBlood_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_StoneBlood_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_StoneBlood_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_StoneFlower_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_StoneFlower_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_StoneFlower_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_StoneFlower_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 
-	class SFW_Artifact_Twist_Sound
-	{
-		soundShaders[] = {"SFW_Artifact_Twist_SoundShader"};
-		sound3DProcessingType = "infected3DProcessingType";
-		volumeCurve = "infectedAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 1;
-	};
+        class SFW_Artifact_Twist_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Twist_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
 };
 

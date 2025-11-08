@@ -12,7 +12,7 @@ class CfgVehicles
 {
 	class Inventory_Base;
 	class Edible_Base;
-	class SFW_Vinca: Edible_Base
+	class SFW_Medical_Vinca: Edible_Base
 	{
 		scope = 2;
 		displayName = "Vinca";

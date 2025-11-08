@@ -10,9 +10,8 @@ class CfgPatches
 };
 class CfgVehicles
 {
-	class Inventory_Base;
 	class Edible_Base;
-	class SFW_Antirad: Edible_Base
+	class SFW_Medical_Antirad: Edible_Base
 	{
 		scope = 2;
 		displayName = "Anti-radiation drugs";
