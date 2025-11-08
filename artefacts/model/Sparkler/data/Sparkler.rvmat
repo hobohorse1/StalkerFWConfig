@@ -8,7 +8,7 @@ PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
 {
-	texture = "";
+	texture = "StalkerFWConfig\artefacts\model\Sparkler\data\ArtSparkler_DefaultMaterial_Normal.paa";
 	uvSource = "tex";
 	class uvTransform
 	{
