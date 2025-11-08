@@ -30,8 +30,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Battery/Battery.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"zbytek"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\battery\data\artbattery_defaultmaterial_co.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\battery\data\battery.rvmat"}; 
@@ -43,8 +41,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Bubble/Bubble.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\bubble\data\artbubble_defaultmaterial_co.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\bubble\data\bubble.rvmat"}; 
@@ -57,8 +53,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Compass/Compass.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"zbytek","emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\compass\data\artcompass_defaultmaterial_basecolor.paa","stalkerfwconfig\artefacts\model\compass\data\artcompass_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\compass\data\artcompass.rvmat","stalkerfwconfig\artefacts\model\compass\data\artcompassemis.rvmat"}; 
@@ -71,8 +65,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Crystal/Crystal.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\crystal\data\artcrystal_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\crystal\data\artcrystalemis.rvmat"}; 
@@ -85,8 +77,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/CrystalThorn/CrystalThorn.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"zbytek"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\crystalthorn\data\artcrystalthorn_co.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\crystalthorn\data\crystalthorn.rvmat"}; 
@@ -98,8 +88,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Drop/Drop.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\drop\data\drop_defaultmaterial_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\drop\data\artdrop.rvmat"}; 
@@ -112,8 +100,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Dummy/Dummy.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"zbytek","emis"; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\dummy\data\artdummy_defaultmaterial_basecolor.paa","stalkerfwconfig\artefacts\model\dummy\data\artdummy_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\dummy\data\artdummy.rvmat","stalkerfwconfig\artefacts\model\dummy\data\artdummy_emis.rvmat"}; 
@@ -126,8 +112,6 @@ class CfgVehicles
 	descriptionShort=""; 
 	model="StalkerFWConfig/artefacts/model/Eye/Eye.p3d"; 
 	rotationFlags=0; 
-	weight=200; 
-	itemSize[]={2,2}; 
 	hiddenSelections[] = {"emis"}; 
 	hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\eye\data\arteye_defaultmaterial_basecolor.paa"}; 
 	hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\eye\data\arteye.rvmat"}; 
@@ -140,8 +124,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/FireBall/FireBall.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"emis"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\fireball\data\artfireball_sphire_co.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\fireball\data\fireballemis.rvmat"}; 
@@ -154,8 +136,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Flame/Flame.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\flame\data\artflame_co.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\flame\data\flameemis.rvmat"}; 
@@ -168,8 +148,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Flash/Flash.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"zbytek","emis"; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\flash\data\flash_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\flash\data\flash.rvmat","stalkerfwconfig\artefacts\model\flash\data\flash_emis.rvmat"}; 
@@ -182,8 +160,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Flower/Flower.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"zbytek"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\flower\data\flower_art_co.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\flower\data\flower.rvmat"}; 
@@ -196,8 +172,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/GoldFish/GoldFish.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\goldfish\data\artgoldfish_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\goldfish\data\goldfish.rvmat"}; 
@@ -210,8 +184,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Gravy/Gravy.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"zbytek"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\gravy\data\artgravy_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\gravy\data\gravy.rvmat"};
@@ -224,8 +196,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Insulator/Insulator.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"zbytek"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\insulator\data\artinsulator_defaultmat_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\insulator\data\artinsulator.rvmat"};
@@ -238,8 +208,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/JellyFish/JellyFish.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"zbytek"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\jellyfish\data\artjellyfish_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\jellyfish\data\jellyfish.rvmat"};
@@ -252,8 +220,6 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Kolobok/Kolobok.p3d"; 
 		rotationFlags=0; 
-		weight=200; 
-		itemSize[]={2,2}; 
 		hiddenSelections[] = {"zbytek","emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\kolobok\data\artkolobok_defaultmaterial_co.paa","stalkerfwconfig\artefacts\model\kolobok\data\artkolobok_defaultmaterial_co.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\kolobok\data\kolobok.rvmat","stalkerfwconfig\artefacts\model\kolobok\data\kolobokemis.rvmat"};
@@ -266,8 +232,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/Lens/Lens.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek","emis"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\lens\data\artlens_defaultmaterial_basecolor.paa","stalkerfwconfig\artefacts\model\lens\data\artlens_defaultmaterial_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\lens\data\artlens.rvmat","stalkerfwconfig\artefacts\model\lens\data\artlensemis.rvmat"};
@@ -280,8 +244,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/Light/Light.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek","emis"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\light\data\flash_defaultmaterial_basecolor.paa","stalkerfwconfig\artefacts\model\light\data\flash_defaultmaterial_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\light\data\light.rvmat","stalkerfwconfig\artefacts\model\light\data\light_emis.rvmat"};
@@ -294,8 +256,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/MamasBeads/MamasBeads.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"emis"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\mamasbeads\data\artmamasbeads_defaultmaterial_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\mamasbeads\data\mamasbeads.rvmat"};
@@ -308,8 +268,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/MeatChunk/MeatChunk.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\meatchunk\data\artmeatchunk_defaultmat_co.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\meatchunk\data\artmeatchunk.rvmat"};
@@ -322,8 +280,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/Monolith/Monolith.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\monolith\data\mono_dayz_co.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\monolith\data\monolith.rvmat"};
@@ -336,8 +292,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/NanoCell/NanoCell.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\nanocell\data\nano_dayz_co.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\nanocell\data\nanocell.rvmat"};
@@ -350,8 +304,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/NightStar/NightStar.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\nightstar\data\nightstar_defaultmaterial_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\nightstar\data\nightstar.rvmat"};
@@ -364,8 +316,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/Oasis/Oasis.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek","gloss"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\oasis\data\oasiswood_co.paa","stalkerfwconfig\artefacts\model\oasis\data\Spnire_default_BaseColor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\oasis\data\oasisgloss.rvmat","stalkerfwconfig\artefacts\model\oasis\data\oasisgloss.rvmat"};
@@ -378,8 +328,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/SeaUrchin/Urchin.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\urchin\data\urchin_defaultmaterial_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\urchin\data\urchin.rvmat"};
@@ -392,8 +340,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/ShineOfTheForest/ShineOfTheForest.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"noemis","igl"};
 		hiddenSelectionsTextures[] = {"StalkerFWConfig\artefacts\model\ShineOfTheForest\data\ShineOfTheForest_Emis.rvmat","StalkerFWConfig\artefacts\model\ShineOfTheForest\data\ShineOfTheForest_Emis.rvmat"};
 		hiddenSelectionsMaterials[] = {"ds_artifacts\model\artifacts\shineoftheforest\date\shineoftheforest.rvmat","ds_artifacts\model\artifacts\shineoftheforest\date\shineoftheforest_emis.rvmat"};
@@ -406,8 +352,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/SnowFlake/SnowFlake.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\snowflake\data\snowflake_defaultmaterial_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\snowflake\data\snowflake.rvmat"};
@@ -420,8 +364,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/Soul/Soul.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek","emis"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\soul\data\artsouloo_co.paa","stalkerfwconfig\artefacts\model\soul\data\artsoul_co.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\soul\data\soul.rvmat","stalkerfwconfig\artefacts\model\soul\data\soulemis.rvmat"};
@@ -434,8 +376,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/Sparkler/Sparkler.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"StalkerFWConfig\artefacts\model\Sparkler\data\ArtSparkler_DefaultMaterial_Normal.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\sparkler\data\sparkler.rvmat"};
@@ -448,8 +388,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/Spring/Spring.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek","como"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\spring\data\artspring_defaultmaterial_basecolor.paa","stalkerfwconfig\artefacts\model\spring\data\springoo_co.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\spring\data\spring.rvmat","stalkerfwconfig\artefacts\model\spring\data\spring.rvmat"};
@@ -462,8 +400,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/SteeringWheel/SteeringWheel.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek","emis"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\steeringwheel\data\artsteeringwheel_defaultmaterial_basecolor.paa","stalkerfwconfig\artefacts\model\steeringwheel\data\artsteeringwheel_defaultmaterial_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\steeringwheel\data\artsteeringwheel.rvmat","stalkerfwconfig\artefacts\model\steeringwheel\data\artsteeringwheelemis.rvmat"};
@@ -476,8 +412,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/StoneBlood/StoneBlood.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\stoneblood\data\artstoneblood_defaultmat_co.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\stoneblood\data\stoneblood.rvmat"};
@@ -490,8 +424,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/StoneFlower/StoneFlower.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"emis"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\stoneflower\data\artstoneflower_defaultmaterial_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\stoneflower\data\stoneflower.rvmat"};
@@ -504,8 +436,6 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/Thorn/Thorn.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\thorn\data\artthorn_co.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\thorn\data\thorn.rvmat"};
@@ -518,10 +448,508 @@ class CfgVehicles
 		descriptionShort="";
 		model="StalkerFWConfig/artefacts/model/Twist/Twist.p3d";
 		rotationFlags=0;
-		weight=200;
-		itemSize[]={2,2};
 		hiddenSelections[] = {"zbytek"};
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\twist\data\arttwist_defaultmaterial_basecolor.paa"};
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\twist\data\arttwist.rvmat"};
 	};
 };
+
+class CfgSoundShaders
+{
+	class SFW_Artifact_Battery_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Battery",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Bubble_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Bubble",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Compass_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Compass",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Crystal_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Crystal",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Dummy_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Dummy",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Eye_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Eye",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_FireBall_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\FireBall",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Flame_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Flame",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Flash_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Flash",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_GoldFish_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\GoldFish",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Gravy_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Gravy",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Jellyfish_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Jellyfish",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Kolobok_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Kolobok",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Light_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Light",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_MamasBeads_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\MamasBeads",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_MeatChunk_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\MeatChunk",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Monolith_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Monolith",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_MoonLight_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\MoonLight",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_NanoCell_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\NanoCell",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_NightStar_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\NightStar",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Oasis_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Oasis",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_SnowFlake_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\SnowFlake",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Soul_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Soul",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Sparkler_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Sparkler",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Spring_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Spring",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_SteeringWheel_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\SteeringWheel",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_StoneBlood_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\StoneBlood",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_StoneFlower_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\StoneFlower",1}};
+		volume = 3.3;
+		range = 3;
+	};
+
+	class SFW_Artifact_Twist_SoundShader
+	{
+		samples[] = {{"StalkerFWConfig\artefacts\sounds\Twist",1}};
+		volume = 3.3;
+		range = 3;
+	};
+};
+
+class CfgSoundSets
+{
+        class SFW_Artifact_Battery_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Battery_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Bubble_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Bubble_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Compass_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Compass_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Crystal_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Crystal_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Dummy_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Dummy_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Eye_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Eye_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_FireBall_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_FireBall_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Flame_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Flame_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Flash_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Flash_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_GoldFish_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_GoldFish_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Gravy_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Gravy_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Jellyfish_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Jellyfish_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Kolobok_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Kolobok_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Light_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Light_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_MamasBeads_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_MamasBeads_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_MeatChunk_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_MeatChunk_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Monolith_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Monolith_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_MoonLight_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_MoonLight_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_NanoCell_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_NanoCell_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_NightStar_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_NightStar_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Oasis_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Oasis_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_SnowFlake_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_SnowFlake_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Soul_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Soul_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Sparkler_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Sparkler_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Spring_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Spring_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_SteeringWheel_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_SteeringWheel_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_StoneBlood_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_StoneBlood_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_StoneFlower_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_StoneFlower_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+
+        class SFW_Artifact_Twist_Sound
+        {
+                soundShaders[] = {"SFW_Artifact_Twist_SoundShader"};
+                sound3DProcessingType = "infected3DProcessingType";
+                volumeCurve = "infectedAttenuationCurve";
+                spatial = 1;
+                doppler = 0;
+                loop = 1;
+        };
+};
+
