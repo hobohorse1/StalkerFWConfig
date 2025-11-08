@@ -100,7 +100,7 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Dummy/Dummy.p3d"; 
 		rotationFlags=0; 
-		hiddenSelections[] = {"zbytek","emis"; 
+		hiddenSelections[] = {"zbytek","emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\dummy\data\artdummy_defaultmaterial_basecolor.paa","stalkerfwconfig\artefacts\model\dummy\data\artdummy_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\dummy\data\artdummy.rvmat","stalkerfwconfig\artefacts\model\dummy\data\artdummy_emis.rvmat"}; 
 	};
@@ -148,7 +148,7 @@ class CfgVehicles
 		descriptionShort=""; 
 		model="StalkerFWConfig/artefacts/model/Flash/Flash.p3d"; 
 		rotationFlags=0; 
-		hiddenSelections[] = {"zbytek","emis"; 
+		hiddenSelections[] = {"zbytek","emis"}; 
 		hiddenSelectionsTextures[] = {"stalkerfwconfig\artefacts\model\flash\data\flash_defaultmaterial_basecolor.paa"}; 
 		hiddenSelectionsMaterials[] = {"stalkerfwconfig\artefacts\model\flash\data\flash.rvmat","stalkerfwconfig\artefacts\model\flash\data\flash_emis.rvmat"}; 
 	};
@@ -342,7 +342,7 @@ class CfgVehicles
 		rotationFlags=0;
 		hiddenSelections[] = {"noemis","igl"};
 		hiddenSelectionsTextures[] = {"StalkerFWConfig\artefacts\model\ShineOfTheForest\data\ShineOfTheForest_Emis.rvmat","StalkerFWConfig\artefacts\model\ShineOfTheForest\data\ShineOfTheForest_Emis.rvmat"};
-		hiddenSelectionsMaterials[] = {"ds_artifacts\model\artifacts\shineoftheforest\date\shineoftheforest.rvmat","ds_artifacts\model\artifacts\shineoftheforest\date\shineoftheforest_emis.rvmat"};
+		hiddenSelectionsMaterials[] = {"StalkerFWConfig\artefacts\model\ShineOfTheForest\data\shineoftheforest.rvmat","StalkerFWConfig\artefacts\model\ShineOfTheForest\data\shineoftheforest_emis.rvmat"};
 	};
 
 	class SFW_Item_Artefact_SnowFlake: SFW_Item_Artefact_Base

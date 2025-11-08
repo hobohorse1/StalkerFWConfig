@@ -12,7 +12,7 @@ class CfgVehicles
 {
 	class Inventory_Base;
 	class Edible_Base;
-	class SFW_Anabiotic: Edible_Base
+	class SFW_Medical_Anabiotic: Edible_Base
 	{
 		scope = 2;
 		model = "\StalkerFWConfig\medical\anabiotic\anabiotic.p3d";

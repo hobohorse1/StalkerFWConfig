@@ -12,7 +12,7 @@ class CfgVehicles
 {
 	class Inventory_Base;
 	class Edible_Base;
-	class SFW_RadioProtectant: Edible_Base
+	class SFW_Medical_RadioProtectant: Edible_Base
 	{
 		scope = 2;
 		displayName = "B-190 Radioprotectant";

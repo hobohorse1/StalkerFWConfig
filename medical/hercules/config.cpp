@@ -13,7 +13,7 @@ class CfgVehicles
 	class Inventory_Base;
 	class Edible_Base;
 
-	class SFW_Hercules: Edible_Base
+	class SFW_Medical_Hercules: Edible_Base
 	{
 		scope = 2;
 		model = "\StalkerFWConfig\medical\hercules\hercules.p3d";

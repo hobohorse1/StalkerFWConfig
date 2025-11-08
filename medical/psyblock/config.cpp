@@ -13,7 +13,7 @@ class CfgVehicles
 	class Inventory_Base;
 	class Edible_Base;
 
-	class SFW_PsyBlock: Edible_Base
+	class SFW_Medical_PsyBlock: Edible_Base
 	{
 		scope = 2;
 		model = "\StalkerFWConfig\medical\psyblock\psyblock.p3d";
